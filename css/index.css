@@ -74,52 +74,61 @@ body {
     text-align: center;
 }
 
-
 th {
     color: white;
 }
 
 td {
     color: white;
+    padding-left: 25px;
 }
 
 .h3-1 {
     color: lightcyan;
 }
 
-.div-1{
+.table{
+    height: 600px;
+    width: 300px;
+    border: 5px gold solid;
+    background-color: transparent;
+    margin-left: 740px;
+}
+
+tr,td,th{
+    border:1px gold solid;
+}
+
+.div-1 {
     margin-left: 750px;
-
 }
 
-.bttn-1{
+.bttn-1 {
     font-size: x-large;
-     background-color: azure;
-     padding:10px;
-     width: 300px; 
-     border-radius: 10px;
-     margin-bottom: 50px;
+    background-color: azure;
+    padding: 10px;
+    width: 300px;
+    border-radius: 10px;
+    margin-bottom: 50px;
 }
 
-.h1-4{
+.h1-4 {
     color: gold;
     text-align: center;
 }
 
-.div-2{
+.div-2 {
     margin-left: 200px;
     margin-top: 80px;
 }
 
-.bttn-2{
+.bttn-2 {
     font-size: x-large;
-     border-radius: 10px;
-     background-color: azure;
-     padding: 10px;
-     height: 70px;
-     width:250px;
-     margin-left: 1000px;
-     margin-top: -400px;
-
+    border-radius: 10px;
+    background-color: azure;
+    padding: 10px;
+    height: 70px;
+    width: 250px;
+    margin-left: 1000px;
+    margin-top: -400px;
 }
-
