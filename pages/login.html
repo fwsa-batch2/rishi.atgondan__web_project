@@ -4,8 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
     <title>REGISTER PMIT</title>
 
     <link rel="stylesheet" type="text/css" href="../assets/css/login.css">
@@ -13,6 +11,35 @@
 </head>
 
 <body>
+    <div id="navbar">
+        <a href="#navbar"><img class="logo" src="../assets/images/logo.jpeg"></a>
+        <ul class="first-nav">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="../pages/news.html">News</a></li>
+            <li><a href="../pages/esport.html">Esports</a></li>
+            <li><a href="#">Highlights</a></li>
+            <li><a href="../pages/gameresponsible.html">Game Responsibly</a></li>
+        </ul>
+        <div class="download-buttons">
+            <button class="download_btn"><a target="_blank"
+                    href="https://apps.apple.com/in/app/battlegrounds-mobile-india/id1526436837">IOS
+                    DOWNLOAD</a></button>
+            <button class="download_btn"><a target="_blank"
+                    href="https://play.google.com/store/apps/details?id=com.pubg.imobile">ADS DOWNLOADS </a></button>
+        </div>
+    </div>
+    <div>
+        <ul class="second-nav">
+            <li><a target="_blank" href="https://www.facebook.com/BattlegroundsMobileIN"> <img
+                        src="../assets/images/fb.png"></a></li>
+            <li><a target="_blank" href="https://www.instagram.com/battlegroundsmobilein_official/"> <img
+                        src="../assets/images/insta.png"></a></li>
+            <li><a target="_blank" href="https://www.youtube.com/c/BattlegroundsMobile_IN/about"><img
+                        src="../assets/images/youtube.png"></a> </li>
+        </ul>
+    </div>
+    <a href="#"><img class="shopping" src="../assets/images/shopping.png" alt="shopping"></a>
+
     <h1 class="h1-1">PMIT REGISTRATION FORM</h1>
     <div class="div-1">
         <form onsubmit="submitHandler()">
@@ -32,28 +59,28 @@
             </table>
             <div class="div-2">
                 <h2>Player 1 IGN: <input id="ign-1" type="text" required><span>Player 1
-                        character id: <input id="chr_id-1" type="tel" pattern="[0-9]" minlength="8" maxlength="8"
-                            min="00000001" required></span>
+                        character id: <input id="chr_id-1" type="tel" pattern="[0-9]+" minlength="8" maxlength="8"
+                            required></span>
                 </h2><br>
 
                 <h2>Player 2 IGN: <input id="ign-2" type="text" required><span>Player 2
-                        character id: <input id="chr_id-2" type="tel" pattern="[0-9]" minlength="8" maxlength="8"
-                            min="00000001" required>
+                        character id: <input id="chr_id-2" type="tel" pattern="[0-9]+" minlength="8" maxlength="8"
+                            required>
                     </span></h2><br>
 
                 <h2>Player 3 IGN: <input id="ign-3" type="text" required><span>Player 3
-                        character id: <input id="chr_id-3" type="tel" pattern="[0-9]" minlength="8" maxlength="8"
-                            min="00000001" required>
+                        character id: <input id="chr_id-3" type="tel" pattern="[0-9]+" minlength="8" maxlength="8"
+                            required>
                     </span></h2><br>
 
                 <h2>Player 4 IGN: <input id="ign-4" type="text" required><span>Player 4
-                        character id: <input id="chr_id-4" type="tel" pattern="[0-9]" minlength="8" maxlength="8"
-                            min="00000001" required>
+                        character id: <input id="chr_id-4" type="tel" pattern="[0-9]+" minlength="8" maxlength="8"
+                            required>
                     </span></h2><br>
 
                 <h2>Player 5 IGN: <input id="ign-5" type="text" required><span>Player 5
-                        character id: <input id="chr_id-5" type="tel" pattern="[0-9]" minlength="8" maxlength="8"
-                            min="00000001" required>
+                        character id: <input id="chr_id-5" type="tel" pattern="[0-9]+" minlength="8" maxlength="8"
+                            required>
                     </span></h2>
             </div><br><br><br>
 
@@ -62,7 +89,7 @@
             </table>
         </form>
 
-        <script src="./../assets/javascript/login.js"></script>
+        <script src="../assets/javascript/login.js"></script>
 </body>
 
 </html>
