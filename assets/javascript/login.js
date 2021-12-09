@@ -36,7 +36,4 @@ function submitHandler() {
     const detailsInString = JSON.stringify(details);
     localStorage.setItem("details", detailsInString);
     window.location.href = "./popup.html";
-
-
-
 }
