@@ -16,7 +16,6 @@ body {
 }
 
 .logo {
-
     height: 70px;
     width: 160px;
 }
@@ -105,7 +104,7 @@ body {
     border: #eca800 solid 5px;
 }
 
-.a{
+.a {
     text-decoration: none;
     color: black;
 }

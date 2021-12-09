@@ -222,3 +222,14 @@ tr, td, th {
     margin-left: 1000px;
     margin-top: -400px;
 }
+
+.arrow_bttn {
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    right: 40px;
+    bottom: 30px;
+    background-color: #eca800;
+    border: 0px;
+}
