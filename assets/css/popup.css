@@ -42,17 +42,21 @@ body {
     margin-left: 820px;
 }
 
-button {
+.smallhome {
+
+    position: fixed;
+    margin-left: 93%;
+    margin-top: -5%;
+}
+
+.home {
     height: 60px;
     width: 60px;
     border-radius: 100px;
     background-color: #eca800;
-    margin-left: 93%;
+    /* margin-left: 93%; */
     border: none;
-    margin-top: -4%;
-}
-
-.home {
+    font-size: 30px;
     text-decoration: none;
-    font-size: 10px;
+    padding: 30px;
 }
