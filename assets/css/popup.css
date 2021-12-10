@@ -41,3 +41,18 @@ body {
     margin-top: 25px;
     margin-left: 820px;
 }
+
+button {
+    height: 60px;
+    width: 60px;
+    border-radius: 100px;
+    background-color: #eca800;
+    margin-left: 93%;
+    border: none;
+    margin-top: -4%;
+}
+
+.home {
+    text-decoration: none;
+    font-size: 10px;
+}

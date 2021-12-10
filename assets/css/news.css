@@ -136,13 +136,14 @@ body {
 }
 
 .select {
-    margin-left: 47%;
+    margin-left: 44%;
     margin-top: 2%;
     height: 50px;
     width: 250px;
     color: #eca800;
     background-color: black;
     font-size: 25px;
+    padding-left: 30px;
 }
 
 .bgimg {
