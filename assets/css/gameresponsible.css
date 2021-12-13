@@ -107,7 +107,7 @@ body {
     width: 90%;
 }
 
-.responsibly {
+.main_heading {
     font-size: 50px;
     margin-left: 100px;
     font-family: sans-serif
@@ -120,10 +120,63 @@ body {
 .para_2 {
     margin-left: 120px;
     font-size: 20px;
-    color: grey;
+    color: #282828;
+    margin-top: 3%;
 }
 
 .video {
     margin-left: 10%;
     margin-bottom: 3%;
+}
+
+.heading {
+    font-size: 30px;
+    color: black;
+    margin-left: 10%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.points {
+    font-size: 20px;
+    margin-left: 11%;
+    font-family: cursive;
+    color: #484848;
+}
+
+.bottom_img {
+    height: 80%;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.footer {
+    background-color: black;
+    width: 100.43%;
+    height: 18%;
+    margin-bottom: -3%;
+    margin-top: 4.5%;
+}
+
+.h1-1 {
+    font-size: 10px;
+    color: white;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.footer_logo {
+    margin-top: 3%;
+    margin-left: 42%;
+    margin-bottom: -1%;
+}
+
+.arrow_bttn {
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    right: 60px;
+    bottom: 40px;
+    background-color: #eca800;
+    border: 0px;
 }
