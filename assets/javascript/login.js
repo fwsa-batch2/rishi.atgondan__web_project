@@ -28,69 +28,69 @@ function submitHandler() {
     const chr_5 = document.getElementById("chr_id-5").value;
 
     const isEmailExist = emailValid(mail);
-    // const ifTeamNameExists = teamName(teamname);
-    // const ifplayer_1Exists = characterId_1(ign_1);
-    // const ifplayer_2Exists = characterId_1(ign_2);
-    // const ifplayer_3Exists = characterId_1(ign_3);
-    // const ifplayer_4Exists = characterId_1(ign_4);
-    // const ifplayer_5Exists = characterId_1(ign_5);
-    // const ifchr_1Exists = characterId_1(chr_1);
-    // const ifchr_2Exists = characterId_1(chr_2);
-    // const ifchr_3Exists = characterId_1(chr_3);
-    // const ifchr_4Exists = characterId_1(chr_4);
-    // const ifchr_5Exists = characterId_1(chr_5);
+    const ifTeamNameExists = teamName(team);
+    const ifplayer_1Exists = inGameName_1(ign_1);
+    const ifplayer_2Exists = inGameName_2(ign_2);
+    const ifplayer_3Exists = inGameName_3(ign_3);
+    const ifplayer_4Exists = inGameName_4(ign_4);
+    const ifplayer_5Exists = inGameName_5(ign_5);
+    const ifchr_1Exists = characterId_1(chr_1);
+    const ifchr_2Exists = characterId_2(chr_2);
+    const ifchr_3Exists = characterId_3(chr_3);
+    const ifchr_4Exists = characterId_4(chr_4);
+    const ifchr_5Exists = characterId_5(chr_5);
 
     if (isEmailExist) {
         document.getElementById("error").innerHTML = "*Email already exist"
     }
-    // else if (ifTeamNameExists) {
-    //     document.getElementById("squadname").innerHTML = "Team name already exist"
-    // }
-    // else if (player_1Name) {
-    //     document.getElementById("error").innerHTML = "player name already exist"
-    // }
-    // else if (player_2Name) {
-    //     document.getElementById("error").innerHTML = "player name already exist"
-    // }
-    // else if (player_3Name) {
-    //     document.getElementById("error").innerHTML = "player name already exist"
-    // }
-    // else if (player_4Name) {
-    //     document.getElementById("error").innerHTML = "player name already exist"
-    // }
-    // else if (player_5Name) {
-    //     document.getElementById("error").innerHTML = "player name already exist"
-    // }
-    // else if (characterId_2) {
-    //     document.getElementById("error").innerHTML = "character id already exist"
-    // }
-    // else if (characterId_3) {
-    //     document.getElementById("error").innerHTML = "character id already exist"
-    // }
-    // else if (characterId_4) {
-    //     document.getElementById("error").innerHTML = "character id already exist"
-    // }
-    // else if (characterId_5) {
-    //     document.getElementById("error").innerHTML = "character id already exist"
-    // }
-    // else if (characterId_6) {
-    //     document.getElementById("error").innerHTML = "character id already exist"
-    // }
+    else if (ifTeamNameExists) {
+        document.getElementById("error").innerHTML = "Team name already exist"
+    }
+    else if (ifplayer_1Exists) {
+        document.getElementById("error").innerHTML = "player name already exist"
+    }
+    else if (ifplayer_2Exists) {
+        document.getElementById("error").innerHTML = "player name already exist"
+    }
+    else if (ifplayer_3Exists) {
+        document.getElementById("error").innerHTML = "player name already exist"
+    }
+    else if (ifplayer_4Exists) {
+        document.getElementById("error").innerHTML = "player name already exist"
+    }
+    else if (ifplayer_5Exists) {
+        document.getElementById("error").innerHTML = "player name already exist"
+    }
+    else if (ifchr_1Exists) {
+        document.getElementById("error").innerHTML = "character id already exist"
+    }
+    else if (ifchr_2Exists) {
+        document.getElementById("error").innerHTML = "character id already exist"
+    }
+    else if (ifchr_3Exists) {
+        document.getElementById("error").innerHTML = "character id already exist"
+    }
+    else if (ifchr_4Exists) {
+        document.getElementById("error").innerHTML = "character id already exist"
+    }
+    else if (ifchr_5Exists) {
+        document.getElementById("error").innerHTML = "character id already exist"
+    }
     else {
         const details = {
             "mail": mail,
             "clan": clan,
             "team": team,
-            "Player 1 IGN": ign_1,
-            "Player 2 IGN": ign_2,
-            "Player 3 IGN": ign_3,
-            "Player 4 IGN": ign_4,
-            "Player 5 IGN": ign_5,
-            "character id-1": chr_1,
-            "character id-2": chr_2,
-            "character id-3": chr_3,
-            "character id-4": chr_4,
-            "character id-5": chr_5
+            "Player1Ign": ign_1,
+            "Player2Ign": ign_2,
+            "Player3Ign": ign_3,
+            "Player4Ign": ign_4,
+            "Player5Ign": ign_5,
+            "characterid1": chr_1,
+            "characterid2": chr_2,
+            "characterid3": chr_3,
+            "characterid4": chr_4,
+            "characterid5": chr_5
         }
         userlist.push(details);
         let detailsInString = JSON.stringify(userlist);
@@ -115,158 +115,158 @@ function emailValid(currentMail) {
 
 }
 
-// function teamName(currentTeam) {
-//     let team = false;
-//     for (i = 0; i < userlist.length; i++) {
-//         let list = userlist[i];
-//         let user = list.teamname;
-//         if (currentTeam == user) {
-//             team = true;
-//             break;
+function teamName(currentTeam) {
+    let team1 = false;
+    for (i = 0; i < userlist.length; i++) {
+        let list = userlist[i];
+        let user = list.team;
+        if (currentTeam == user) {
+            team1 = true;
+            break;
 
-//         }
-//     } return team;
+        }
+    } return team1;
 
-// }
+}
 
 
-// function inGameName_1(player_1) {
-//     let isUsed = false;
-//     for (i = 0; i < userlist.length; i++) {
-//         let list = userlist[i];
-//         let user = list.ign_1;
-//         if (player_1 == user) {
-//             isUsed = true;
-//             break;
+function inGameName_1(player_1) {
+    let isUsed = false;
+    for (i = 0; i < userlist.length; i++) {
+        let list = userlist[i];
+        let user = list.Player1Ign;
+        if (player_1 == user) {
+            isUsed = true;
+            break;
 
-//         }
-//     } return isUsed;
+        }
+    } return isUsed;
 
-// }
+}
 
-// function inGameName_2(player_2) {
-//     let isUsed = false;
-//     for (i = 0; i < userlist.length; i++) {
-//         let list = userlist[i];
-//         let user = list.ign_2;
-//         if (player_2 == user) {
-//             isUsed = true;
-//             break;
+function inGameName_2(player_2) {
+    let isUsed = false;
+    for (i = 0; i < userlist.length; i++) {
+        let list = userlist[i];
+        let user = list.Player2Ign;
+        if (player_2 == user) {
+            isUsed = true;
+            break;
 
-//         }
-//     } return isUsed;
+        }
+    } return isUsed;
 
-// }
+}
 
-// function inGameName_3(player_3) {
-//     let isUsed = false;
-//     for (i = 0; i < userlist.length; i++) {
-//         let list = userlist[i];
-//         let user = list.ign_3;
-//         if (player_3 == user) {
-//             isUsed = true;
-//             break;
+function inGameName_3(player_3) {
+    let isUsed = false;
+    for (i = 0; i < userlist.length; i++) {
+        let list = userlist[i];
+        let user = list.Player3Ign;
+        if (player_3 == user) {
+            isUsed = true;
+            break;
 
-//         }
-//     } return isUsed;
+        }
+    } return isUsed;
 
-// }
+}
 
-// function inGameName_4(Player_4) {
-//     let isUsed = false;
-//     for (i = 0; i < userlist.length; i++) {
-//         let list = userlist[i];
-//         let user = list.ign_4;
-//         if (player_4 == user) {
-//             isUsed = true;
-//             break;
+function inGameName_4(player_4) {
+    let isUsed = false;
+    for (i = 0; i < userlist.length; i++) {
+        let list = userlist[i];
+        let user = list.Player4Ign;
+        if (player_4 == user) {
+            isUsed = true;
+            break;
 
-//         }
-//     } return isUsed;
+        }
+    } return isUsed;
 
-// }
+}
 
-// function inGameName_5(Player_5) {
-//     let isUsed = false;
-//     for (i = 0; i < userlist.length; i++) {
-//         let list = userlist[i];
-//         let user = list.ign_5;
-//         if (player_5 == user) {
-//             isUsed = true;
-//             break;
+function inGameName_5(player_5) {
+    let isUsed = false;
+    for (i = 0; i < userlist.length; i++) {
+        let list = userlist[i];
+        let user = list.Player5Ign;
+        if (player_5 == user) {
+            isUsed = true;
+            break;
 
-//         }
-//     } return isUsed;
+        }
+    } return isUsed;
 
-// }
+}
 
-// function characterId_1(id_1) {
-//     let isUsed = false;
-//     for (i = 0; i < userlist.length; i++) {
-//         let list = userlist[i];
-//         let user = list.chr_1;
-//         if (id_1 == user) {
-//             isUsed = true;
-//             break;
+function characterId_1(id_1) {
+    let isUsed = false;
+    for (i = 0; i < userlist.length; i++) {
+        let list = userlist[i];
+        let user = list.characterid1;
+        if (id_1 == user) {
+            isUsed = true;
+            break;
 
-//         }
-//     } return isUsed;
+        }
+    } return isUsed;
 
-// }
+}
 
-// function characterId_2(id_2) {
-//     let isUsed = false;
-//     for (i = 0; i < userlist.length; i++) {
-//         let list = userlist[i];
-//         let user = list.chr_2;
-//         if (id_2 == user) {
-//             isUsed = true;
-//             break;
+function characterId_2(id_2) {
+    let isUsed = false;
+    for (i = 0; i < userlist.length; i++) {
+        let list = userlist[i];
+        let user = list.characterid2;
+        if (id_2 == user) {
+            isUsed = true;
+            break;
 
-//         }
-//     } return isUsed;
+        }
+    } return isUsed;
 
-// }
+}
 
-// function characterId_3(id_3) {
-//     let isUsed = false;
-//     for (i = 0; i < userlist.length; i++) {
-//         let list = userlist[i];
-//         let user = list.chr_3;
-//         if (id_3 == user) {
-//             isUsed = true;
-//             break;
+function characterId_3(id_3) {
+    let isUsed = false;
+    for (i = 0; i < userlist.length; i++) {
+        let list = userlist[i];
+        let user = list.characterid3;
+        if (id_3 == user) {
+            isUsed = true;
+            break;
 
-//         }
-//     } return isUsed;
+        }
+    } return isUsed;
 
-// }
+}
 
-// function characterId_4(id_4) {
-//     let isUsed = false;
-//     for (i = 0; i < userlist.length; i++) {
-//         let list = userlist[i];
-//         let user = list.chr_4;
-//         if (id_4 == user) {
-//             isUsed = true;
-//             break;
+function characterId_4(id_4) {
+    let isUsed = false;
+    for (i = 0; i < userlist.length; i++) {
+        let list = userlist[i];
+        let user = list.characterid4;
+        if (id_4 == user) {
+            isUsed = true;
+            break;
 
-//         }
-//     } return isUsed;
+        }
+    } return isUsed;
 
-// }
+}
 
-// function characterId_5(id_5) {
-//     let isUsed = false;
-//     for (i = 0; i < userlist.length; i++) {
-//         let list = userlist[i];
-//         let user = list.chr_5;
-//         if (id_5 == user) {
-//             isUsed = true;
-//             break;
+function characterId_5(id_5) {
+    let isUsed = false;
+    for (i = 0; i < userlist.length; i++) {
+        let list = userlist[i];
+        let user = list.characterid5;
+        if (id_5 == user) {
+            isUsed = true;
+            break;
 
-//         }
-//     } return isUsed;
+        }
+    } return isUsed;
 
-// }
+}
 
