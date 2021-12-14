@@ -41,40 +41,40 @@ function submitHandler() {
     const ifchr_5Exists = characterId_5(chr_5);
 
     if (isEmailExist) {
-        document.getElementById("error").innerHTML = "*Email already exist"
+        document.getElementById("error").innerText = "*Email already exist"
     }
     else if (ifTeamNameExists) {
-        document.getElementById("error").innerHTML = "Team name already exist"
+        document.getElementById("error").innerText = "Team name already exist"
     }
     else if (ifplayer_1Exists) {
-        document.getElementById("error").innerHTML = "player name already exist"
+        document.getElementById("error").innerText = "player name already exist"
     }
     else if (ifplayer_2Exists) {
-        document.getElementById("error").innerHTML = "player name already exist"
+        document.getElementById("error").innerText = "player name already exist"
     }
     else if (ifplayer_3Exists) {
-        document.getElementById("error").innerHTML = "player name already exist"
+        document.getElementById("error").innerText = "player name already exist"
     }
     else if (ifplayer_4Exists) {
-        document.getElementById("error").innerHTML = "player name already exist"
+        document.getElementById("error").innerText = "player name already exist"
     }
     else if (ifplayer_5Exists) {
-        document.getElementById("error").innerHTML = "player name already exist"
+        document.getElementById("error").innerText = "player name already exist"
     }
     else if (ifchr_1Exists) {
-        document.getElementById("error").innerHTML = "character id already exist"
+        document.getElementById("error").innerText = "character id already exist"
     }
     else if (ifchr_2Exists) {
-        document.getElementById("error").innerHTML = "character id already exist"
+        document.getElementById("error").innerText = "character id already exist"
     }
     else if (ifchr_3Exists) {
-        document.getElementById("error").innerHTML = "character id already exist"
+        document.getElementById("error").innerText = "character id already exist"
     }
     else if (ifchr_4Exists) {
-        document.getElementById("error").innerHTML = "character id already exist"
+        document.getElementById("error").innerText = "character id already exist"
     }
     else if (ifchr_5Exists) {
-        document.getElementById("error").innerHTML = "character id already exist"
+        document.getElementById("error").innerText = "character id already exist"
     }
     else {
         const details = {
@@ -95,7 +95,7 @@ function submitHandler() {
         userlist.push(details);
         let detailsInString = JSON.stringify(userlist);
         localStorage.setItem("details", detailsInString);
-        window.location.href = "./popup.html"
+        window.location.href = "./popup.teinnerText"
 
     }
 
