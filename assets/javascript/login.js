@@ -10,7 +10,6 @@ function onPageLoad() {
 
 onPageLoad()
 
-
 function submitHandler() {
     event.preventDefault();
     const mail = document.getElementById("mail").value;

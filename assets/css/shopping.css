@@ -1,0 +1,119 @@
+.firstdiv {
+    background-color: yellow;
+    height: 60px;
+    width: 100.81%;
+    margin-top: -12px;
+    margin-left: -8px;
+}
+
+.seconddiv {
+    background-color: pink;
+    height: 70px;
+    width: 100.81%;
+    margin-left: -8px;
+    margin-top: -21px;
+}
+
+.div1_h4 {
+    text-align: center;
+    color: black;
+    padding: 15px;
+}
+
+.div2_h4 {
+    text-align: center;
+    color: black;
+    padding: 15px;
+}
+
+.bttn_1 {
+    margin-top: -56px;
+    margin-left: 90%;
+    background-color: grey;
+}
+
+.bttn_2 {
+    margin-top: -56px;
+    margin-left: 90%;
+    background-color: grey;
+}
+
+
+
+.lastdiv {
+    background-color: #32103a;
+    height: 150%;
+    width: 100.81%;
+    margin-top: -12px;
+    margin-left: -8px;
+}
+
+.banner {
+    padding: 50px;
+    margin-left: 250px;
+    height: 200px;
+    width: 450px;
+}
+
+.heading {
+    color: white;
+    padding-left: 300px;
+    margin-top: -30px;
+}
+
+.subheading {
+    color: white;
+    margin-left: 300px;
+}
+
+.para {
+    color: white;
+    margin-left: 300px;
+    font-size: 15px;
+}
+
+.table1 {
+    height: 140px;
+    width: 800px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 42%;
+    margin-top: -69%;
+}
+
+.input_heading {
+    padding-top: 17px;
+    padding-left: 70px;
+    font-size: 20px;
+
+}
+
+#chr_id {
+    padding-left: 40px;
+    height: 40px;
+    width: 200px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.bttnhome {
+    height: 60px;
+    width: 60px;
+    border-radius: 100px;
+    margin-left: 95%;
+    margin-top: -8%;
+    border: 0px;
+    background-color: #eca800;
+    cursor: pointer;
+}
+
+.home {
+    text-decoration: none;
+    color: black;
+}
+
+.info {
+    font-size: 12px;
+    padding-left: 10px;
+}
+
