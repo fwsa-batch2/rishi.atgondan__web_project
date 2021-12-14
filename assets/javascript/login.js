@@ -5,6 +5,8 @@ function onPageLoad() {
     let users = JSON.parse(localStorage.getItem("details"));
     if (users != null) {
         userlist = users;
+    } else {
+        localStorage.setItem("details", JSON.stringify([]));
     }
 }
 
@@ -94,7 +96,7 @@ function submitHandler() {
         userlist.push(details);
         let detailsInString = JSON.stringify(userlist);
         localStorage.setItem("details", detailsInString);
-        window.location.href = "./popup.teinnerText"
+        window.location.href = "./popup.html"
 
     }
 
