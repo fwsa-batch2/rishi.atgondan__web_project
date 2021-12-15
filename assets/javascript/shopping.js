@@ -34,6 +34,7 @@ function submitHandler() {
         alert("Thank you for purchasing UC");
     }
 
+
 }
 
 
