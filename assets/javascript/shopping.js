@@ -5,3 +5,15 @@ function clear1() {
 function clear2() {
     document.getElementById("div_2").style.display = "none";
 }
+
+let userid = [];
+
+function submitHandler() {
+    event.preventDefault();
+    const characterId = document.getElementById("chr_id").value;
+
+    console.log(characterId);
+
+
+}
+

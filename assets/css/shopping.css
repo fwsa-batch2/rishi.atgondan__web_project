@@ -90,7 +90,7 @@
 
 #chr_id {
     padding-left: 40px;
-    height: 40px;
+    height: 50px;
     width: 200px;
     margin-left: 40px;
     border-radius: 10px;
@@ -123,7 +123,7 @@
     height: 45px;
     width: 45px;
     background-color: violet;
-    margin-top: -19%;
+    margin-top: -20%;
     margin-left: 1.5%;
     border: solid 3px white;
 
@@ -158,13 +158,54 @@
 }
 
 
-#button {
+#button1 {
     height: 100%;
     width: 100%;
     border: 0px;
     cursor: pointer;
     background-color: #FFFFE0;
 }
+
+#button2 {
+    height: 100%;
+    width: 100%;
+    border: 0px;
+    cursor: pointer;
+    background-color: #FFFFE0;
+}
+
+#button3 {
+    height: 100%;
+    width: 100%;
+    border: 0px;
+    cursor: pointer;
+    background-color: #FFFFE0;
+}
+
+#button4 {
+    height: 100%;
+    width: 100%;
+    border: 0px;
+    cursor: pointer;
+    background-color: #FFFFE0;
+}
+
+#button5 {
+    height: 100%;
+    width: 100%;
+    border: 0px;
+    cursor: pointer;
+    background-color: #FFFFE0;
+}
+
+#button6 {
+    height: 100%;
+    width: 100%;
+    border: 0px;
+    cursor: pointer;
+    background-color: #FFFFE0;
+}
+
 
 .table3 {
     height: 720px;
@@ -202,8 +243,21 @@
     height: 100px;
 }
 
-#online_optns{
+#online_optns {
     position: absolute;
     margin-top: -65px;
     margin-left: 350px;
+}
+
+.submit {
+    border-radius: 10px;
+    color: black;
+    margin-left: 20px;
+    height: 30px;
+    width: 80px;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: #eca800;
 }
