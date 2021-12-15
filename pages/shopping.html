@@ -58,17 +58,15 @@
 
             Download & play BATTLEGROUNDS MOBILE<br> INDIA today!
         </p>
-        <a target="_blank" href="https://play.google.com/store/apps/details?id=com.pubg.imobile"><img class="download1"
-                src="../assets/images/btn_googleplay.png"></a>
-        <a target="_blank" href="https://apps.apple.com/in/app/battlegrounds-mobile-india/id1526436837"><img
-                class="download2" src="../assets/images/btn_appstore.png"></a>
+        <img onclick="action1()" class="download1" src="../assets/images/btn_googleplay.png">
+        <img onclick="action1()" class="download2" src="../assets/images/btn_appstore.png">
     </div>
     <div class=table1>
         <form onsubmit="submitHandler()">
             <p class="input_heading1">Enter The User ID</p>
             <input id="chr_id" type="tel" required placeholder="Enter The User ID" pattern="[0-9]+" minlength="8"
                 maxlength="8">
-            <button type="submit" class="submit">Submit</button>
+            <button type="submit" class="submit">Submit</button> <span id="error"></span>
         </form>
         <p class="info">To find your User ID, tap your Avatar on the top left corner of the Lobby screen. Your User ID
             is shown below
