@@ -64,7 +64,8 @@
     <div class=table1>
         <form onsubmit="submitHandler()">
             <p class="input_heading1">Enter The User ID</p>
-            <input id="chr_id" type="tel" placeholder="Enter The User ID" pattern="[0-9]+" minlength="8" maxlength="8">
+            <input id="chr_id" type="tel" required placeholder="Enter The User ID" pattern="[0-9]+" minlength="8"
+                maxlength="8">
             <button type="submit" class="submit">Submit</button>
         </form>
         <p class="info">To find your User ID, tap your Avatar on the top left corner of the Lobby screen. Your User ID
@@ -79,17 +80,17 @@
 
     <div class=table2>
         <p class="input_heading1">Select Recharge</p>
-        <table colspan="3">
+        <table colspan="3" id="input_uc">
 
             <tr>
-                <td><button id="button1">60 UC</button></td>
-                <td><button id="button2">300 UC</button></td>
-                <td><button id="button3">600 UC</button></td>
+                <td><button onclick="display(60)" id="button">60 UC</button></td>
+                <td><button onclick="display(300)" id="button">300 UC</button></td>
+                <td><button onclick="display(600)" id="button">600 UC</button></td>
             </tr>
             <tr>
-                <td><button id="button4">1800 UC</button></td>
-                <td><button id="button5">3500 UC</button></td>
-                <td><button id="button6">6200 UC</button></td>
+                <td><button onclick="display(1800)" id="button">1800 UC</button></td>
+                <td><button onclick="display(3500)" id="button">3500 UC</button></td>
+                <td><button onclick="display(6200)" id="button">6200 UC</button></td>
             </tr>
 
         </table>
