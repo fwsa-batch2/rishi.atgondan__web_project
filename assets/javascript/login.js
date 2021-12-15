@@ -6,6 +6,9 @@ function onPageLoad() {
     if (users != null) {
         userlist = users;
     }
+    else {
+        localStorage.setItem("details", JSON.stringify([]));
+    }
 }
 
 onPageLoad()
