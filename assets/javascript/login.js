@@ -5,8 +5,6 @@ function onPageLoad() {
     let users = JSON.parse(localStorage.getItem("details"));
     if (users != null) {
         userlist = users;
-    } else {
-        localStorage.setItem("details", JSON.stringify([]));
     }
 }
 
