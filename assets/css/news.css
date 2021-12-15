@@ -86,7 +86,7 @@ body {
     margin-top: -3.6%;
 }
 
-/* .top_div {
+.top_div {
     background-color: black;
     height: 70px;
     width: 100.2%;
@@ -115,11 +115,11 @@ body {
 .tournament {
     font-size: 30px;
     color: black;
-    text-decoration-color:blanchedalmond;
+    text-decoration-color: blanchedalmond;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
 
-} */
+}
 
 .top_visuals {
     margin-top: -10px;

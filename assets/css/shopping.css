@@ -201,3 +201,9 @@
     width: 140px;
     height: 100px;
 }
+
+#online_optns{
+    position: absolute;
+    margin-top: -65px;
+    margin-left: 350px;
+}
