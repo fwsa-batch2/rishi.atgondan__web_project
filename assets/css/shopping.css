@@ -27,18 +27,18 @@
 }
 
 .bttn_1 {
-    margin-top: -56px;
-    margin-left: 90%;
-    background-color: grey;
+    margin-top: -58px;
+    margin-left: 90.5%;
+    background-color: white;
+    border: 2px solid black;
 }
 
 .bttn_2 {
     margin-top: -56px;
-    margin-left: 90%;
-    background-color: grey;
+    margin-left: 90.5%;
+    background-color: white;
+    border: 2px solid black;
 }
-
-
 
 .lastdiv {
     background-color: #32103a;

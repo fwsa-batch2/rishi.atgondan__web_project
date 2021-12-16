@@ -103,6 +103,7 @@ body {
     text-decoration: none;
     border: #eca800 solid 5px;
     box-shadow: 0px 0px 40px white;
+    cursor: pointer;
 }
 
 .a {
