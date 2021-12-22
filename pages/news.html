@@ -46,10 +46,10 @@
     </div>
 
     <img class="top_img" src="../assets/images/top_visual.jpg">
-    <select class="select">
+    <select class="select" id="option" onchange="filter.call(this, event)">
         <option>All</option>
-        <option>Achievements</option>
-        <option>Events</option>
+        <option value="achievements">Achievements</option>
+        <option value="">Events</option>
         <option>Notice</option>
 
     </select>
@@ -57,7 +57,7 @@
 
     </div>
 
-    <div class="sub_box1">
+    <div id="box1" class="sub_box1">
         <h1 class="tournament">DIWALI TOURNAMENT</h1>
         <div class="main_div">
             <img class="diwali" src="../assets/images/diwali-winners.jpg">
@@ -81,7 +81,7 @@
         </p>
         </p>
     </div>
-    <div class=sub_box2>
+    <div id="box2" class=sub_box2>
         <h1 class="tournament">ESPORTS PLAYER OF THE YEAR</h1>
         <div class="main_div">
             <img class="player" src="../assets/images/esportsplayer.jpg">
@@ -115,7 +115,7 @@
             </p>
         </div>
     </div>
-    <div class="sub_box3">
+    <div id="box3" class="sub_box3">
         <h1 class="tournament">ONESHOT TOURNAMENT</h1>
         <img class="oneshot" src="../assets/images/oneshot_top3.jpg">
         <img class="oneshot" src="../assets/images/oneshot_champ.jpg">
@@ -134,7 +134,7 @@
 
         </p>
     </div>
-    <div class="sub_box4">
+    <div id="box4" class="sub_box4">
         <h1 class="tournament">RIVALS TOURNAMENT</h1>
         <img class="rivals" src="../assets/images/rivals_top3.jpg">
         <p class="para4">PUBG Mobile Rivals Cup is a new inter-country tournament announced by the officials which will
@@ -148,7 +148,7 @@
             RIVALARY ESPORTS - 3rd Place<br>
         </p>
     </div>
-    <div class="sub_box5">
+    <div id="box5" class="sub_box5">
         <h1 class="tournament">THE FALL SEASON - FACE OFF</h1>
         <img class="faceoff" src="../assets/images/fall_top3.jpg">
         <img class="faceoff" src="../assets/images/fallface_points.jpg">
@@ -166,7 +166,7 @@
         </p>
     </div>
     <div>
-        <div class="notice1">
+        <div id="notice1" class="notice1">
             <img class="notice_img" src="../assets/images/notice1.jpg" alt="notice-1">
             <p class="notice">NOTICE :-</p>
             <p class="issue"><b>Virus Infection Mode Taken Down</b></p><br>
@@ -183,7 +183,7 @@
                 KRAFTON
             </p>
         </div>
-        <div class="notice2">
+        <div id="notice2" class="notice2">
             <img class="notice_img" src="../assets/images/notice1.jpg" alt="notice-1">
             <p class="notice">NOTICE :-</p>
             <p class="issue"><b>Data Transfer Closeout</b></p>
@@ -201,7 +201,7 @@
 
             </p>
         </div>
-        <div class="notice3">
+        <div id="notice3" class="notice3">
             <img class="notice_img" src="../assets/images/notice1.jpg" alt="notice-1">
             <p class="notice">NOTICE :-</p>
             <p class="issue"><b>Privacy Policy Revision</b></p>
@@ -225,7 +225,7 @@
                 KRAFTON
             </p>
         </div>
-        <div class="notice1">
+        <div id="notice4" class="notice1">
             <img class="notice_img" src="../assets/images/notice1.jpg" alt="notice-1">
             <p class="notice">NOTICE :-</p>
             <p class="issue"><b>Provision of Mirror Lobby Theme</b></p>
@@ -243,7 +243,7 @@
                 KRAFTON
             </p>
         </div>
-        <div class="notice2">
+        <div id="notice5" class="notice2">
             <img class="notice_img" src="../assets/images/notice1.jpg" alt="notice-1">
             <p class="notice">NOTICE :-</p>
             <p class="issue"><b>Notice on the inability to log in to a Facebook account (Fixed : 10/5 08:00AM)</b></p>
@@ -265,7 +265,7 @@
                 KRAFTON
             </p>
         </div>
-        <div class="notice3">
+        <div id="notice6" class="notice3">
             <img class="notice_img" src="../assets/images/spl_notice.png" alt="notice-1">
             <p class="notice">NOTICE :-</p>
             <p class="issue"><b>November Update Schedule</b></p>
@@ -295,7 +295,7 @@
             </p>
         </div>
     </div>
-    <div class="event">
+    <div id="tourn" class="event">
         <img class="events" src="../assets/images/PMIT.png">
         <img class="eventss" src="../assets/images/pmco.jpg">
         <img class="eventss" src="../assets/images/bgis_tourney.jpeg"><br>
@@ -305,15 +305,15 @@
 
         <h1 class="text_tourney">THESE ARE THE UPCOMING TOURNAMENTS WITH HUGE NUMBER OF PRICE POOLS!!!!</h1>
     </div>
-   
 
 
-            <div class="footer">
-                <a href="#navbar"><img class="footer_logo" src="../assets/images/footerlg.png"></a>
-                <h1 class="h1-1">© 2021 KRAFTON, Inc. All rights reserved.</h1>
-                <a href="#navbar"><button class="arrow_bttn">UP</button></a>
 
-            </div>
+    <div class="footer">
+        <a href="#navbar"><img class="footer_logo" src="../assets/images/footerlg.png"></a>
+        <h1 class="h1-1">© 2021 KRAFTON, Inc. All rights reserved.</h1>
+        <a href="#navbar"><button class="arrow_bttn">UP</button></a>
+
+    </div>
 </body>
 
 </html>
