@@ -2,12 +2,12 @@ let userlist = [];
 
 
 function onPageLoad() {
-    let users = JSON.parse(localStorage.getItem("details"));
+    let users = JSON.parse(localStorage.getItem("REGISTRATION FORM"));
     if (users != null) {
         userlist = users;
     }
     else {
-        localStorage.setItem("details", JSON.stringify([]));
+        localStorage.setItem("REGISTRATION FORM", JSON.stringify([]));
     }
 }
 
@@ -96,7 +96,7 @@ function submitHandler() {
         }
         userlist.push(details);
         let detailsInString = JSON.stringify(userlist);
-        localStorage.setItem("details", detailsInString);
+        localStorage.setItem("REGISTRATION FORM", detailsInString);
         window.location.href = "./popup.html"
 
     }

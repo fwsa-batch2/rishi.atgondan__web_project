@@ -5,7 +5,10 @@
 body {
     margin-left: 0px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
+    background-image: url("../images/greybackround.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
 }
 
 #navbar {
@@ -85,15 +88,9 @@ body {
 .shopping {
     margin-left: 96.7%;
     margin-top: -3.6%;
+    cursor: pointer;
 }
 
-
-body {
-    background-image: url("../images/greybackround.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;
-}
 
 .h1-1 {
     font-size: 40px;

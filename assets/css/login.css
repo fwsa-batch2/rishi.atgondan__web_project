@@ -2,8 +2,6 @@
   scroll-behavior: smooth;
 }
 
-
-
 body {
   margin-left: 0px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -87,6 +85,7 @@ body {
 .shopping {
   margin-left: 96.7%;
   margin-top: -3.6%;
+  cursor: pointer;
 }
 
 
@@ -150,6 +149,6 @@ span {
   font-size: x-large;
 }
 
-#error{
-  color:red;
+#error {
+  color: red;
 }

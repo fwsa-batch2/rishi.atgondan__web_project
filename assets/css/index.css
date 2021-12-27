@@ -84,6 +84,7 @@ body {
 .shopping {
     margin-left: 96.7%;
     margin-top: -3.6%;
+    cursor: pointer;
 }
 
 .background_img {
