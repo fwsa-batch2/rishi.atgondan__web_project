@@ -1,20 +1,35 @@
-// function selector() {
-//     event.preventDefault();
-//     const achieve = document.getElementById("achievements").value;
-//     const note = document.getElementById("notice").value;
-//     const event = document.getElementById("events").value;
+// function filter1() {
+//     document.getElementById("notice1").style.display = "none";
+//     document.getElementById("notice2").style.display = "none";
+//     document.getElementById("notice3").style.display = "none";
+//     document.getElementById("notice4").style.display = "none";
+//     document.getElementById("notice5").style.display = "none";
+//     document.getElementById("notice6").style.display = "none";
+//     document.getElementById("tourn").style.display = "none";
 // }
 
-// if (achieve) {
-//     document.getElementById("achievements").value;
+// function filter2() {
+//     document.getElementById("box1").style.display = "none";
+//     document.getElementById("box2").style.display = "none";
+//     document.getElementById("box3").style.display = "none";
+//     document.getElementById("box4").style.display = "none";
+//     document.getElementById("box5").style.display = "none";
+//     document.getElementById("tourn").style.display = "none";
 // }
-// else if (notice) {
-//     document.getElementById("notice").value;
+// function filter3() {
+//     document.getElementById("notice1").style.display = "none";
+//     document.getElementById("notice2").style.display = "none";
+//     document.getElementById("notice3").style.display = "none";
+//     document.getElementById("notice4").style.display = "none";
+//     document.getElementById("notice5").style.display = "none";
+//     document.getElementById("notice6").style.display = "none";
+//     document.getElementById("box1").style.display = "none";
+//     document.getElementById("box2").style.display = "none";
+//     document.getElementById("box3").style.display = "none";
+//     document.getElementById("box4").style.display = "none";
+//     document.getElementById("box5").style.display = "none";
 // }
-// // else if (event) {
-// //     document.getElementById("events").value;
-// // }
+// function filter4() {
+//     console.log("all")
+// 
 
-function filter(event) {
-    alert(this.options[this.selectedIndex].text);
-}

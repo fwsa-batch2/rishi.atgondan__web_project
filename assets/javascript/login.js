@@ -97,7 +97,7 @@ function submitHandler() {
         userlist.push(details);
         let detailsInString = JSON.stringify(userlist);
         localStorage.setItem("REGISTRATION FORM", detailsInString);
-        window.location.href = "./popup.html"
+        window.location.href = "./../../pages/popup.html"
 
     }
 
