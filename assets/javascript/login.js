@@ -49,34 +49,34 @@ function submitHandler() {
         document.getElementById("error").innerText = "Team name already exist"
     }
     else if (ifplayer_1Exists) {
-        document.getElementById("error").innerText = "player name already exist"
+        document.getElementById("error").innerText = "player 1 name already exist"
     }
     else if (ifplayer_2Exists) {
-        document.getElementById("error").innerText = "player name already exist"
+        document.getElementById("error").innerText = "player 2 name already exist"
     }
     else if (ifplayer_3Exists) {
-        document.getElementById("error").innerText = "player name already exist"
+        document.getElementById("error").innerText = "player 3 name already exist"
     }
     else if (ifplayer_4Exists) {
-        document.getElementById("error").innerText = "player name already exist"
+        document.getElementById("error").innerText = "player 4 name already exist"
     }
     else if (ifplayer_5Exists) {
-        document.getElementById("error").innerText = "player name already exist"
+        document.getElementById("error").innerText = "player 5 name already exist"
     }
     else if (ifchr_1Exists) {
-        document.getElementById("error").innerText = "character id already exist"
+        document.getElementById("error").innerText = "character 1 id already exist"
     }
     else if (ifchr_2Exists) {
-        document.getElementById("error").innerText = "character id already exist"
+        document.getElementById("error").innerText = "character 2 id already exist"
     }
     else if (ifchr_3Exists) {
-        document.getElementById("error").innerText = "character id already exist"
+        document.getElementById("error").innerText = "character 3 id already exist"
     }
     else if (ifchr_4Exists) {
-        document.getElementById("error").innerText = "character id already exist"
+        document.getElementById("error").innerText = "character 4 id already exist"
     }
     else if (ifchr_5Exists) {
-        document.getElementById("error").innerText = "character id already exist"
+        document.getElementById("error").innerText = "character 5 id already exist"
     }
     else {
         const details = {
