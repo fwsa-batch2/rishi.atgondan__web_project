@@ -127,6 +127,10 @@ body {
     margin-left: 500px;
 }
 
+.dropdown1:hover {
+    box-shadow: 0 0 10px white;
+}
+
 .dropdown {
     height: 50px;
     width: 200px;
@@ -135,6 +139,10 @@ body {
     font-size: 20px;
     margin-top: 10px;
     cursor: pointer;
+}
+
+.dropdown:hover {
+    box-shadow: 0 0 10px white;
 }
 
 .select {

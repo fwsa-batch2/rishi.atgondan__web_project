@@ -197,6 +197,7 @@ tr, td, th {
     width: 300px;
     border-radius: 10px;
     margin-bottom: 50px;
+    cursor: pointer;
 }
 
 .h1-4 {
@@ -218,6 +219,7 @@ tr, td, th {
     width: 250px;
     margin-left: 1000px;
     margin-top: -400px;
+    cursor: pointer;
 }
 
 .arrow_bttn {
