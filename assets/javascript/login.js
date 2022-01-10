@@ -105,9 +105,8 @@ function submitHandler(event) {
 
 function emailValid(currentMail) {
     let isUsed = false;
-    for (let i = 0; i < userlist.length; i++) {
-        let list = userlist[i];
-        let user = list.mail;
+    for (let i of userlist) {
+        let user = i.mail;
         if (currentMail == user) {
             isUsed = true;
             break;
@@ -119,9 +118,8 @@ function emailValid(currentMail) {
 
 function teamName(currentTeam) {
     let team1 = false;
-    for (let i = 0; i < userlist.length; i++) {
-        let list = userlist[i];
-        let user = list.team;
+    for (let i of userlist) {
+        let user = i.team;
         if (currentTeam == user) {
             team1 = true;
             break;
@@ -134,9 +132,8 @@ function teamName(currentTeam) {
 
 function inGameName_1(player_1) {
     let isUsed = false;
-    for (let i = 0; i < userlist.length; i++) {
-        let list = userlist[i];
-        let user = list.Player1Ign;
+    for (let i of userlist) {
+        let user = i.Player1Ign;
         if (player_1 == user) {
             isUsed = true;
             break;
@@ -148,9 +145,8 @@ function inGameName_1(player_1) {
 
 function inGameName_2(player_2) {
     let isUsed = false;
-    for (let i = 0; i < userlist.length; i++) {
-        let list = userlist[i];
-        let user = list.Player2Ign;
+    for (let i of userlist) {
+        let user = i.Player2Ign;
         if (player_2 == user) {
             isUsed = true;
             break;
@@ -162,9 +158,8 @@ function inGameName_2(player_2) {
 
 function inGameName_3(player_3) {
     let isUsed = false;
-    for (let i = 0; i < userlist.length; i++) {
-        let list = userlist[i];
-        let user = list.Player3Ign;
+    for (let i of userlist) {
+        let user = i.Player3Ign;
         if (player_3 == user) {
             isUsed = true;
             break;
@@ -176,9 +171,8 @@ function inGameName_3(player_3) {
 
 function inGameName_4(player_4) {
     let isUsed = false;
-    for (let i = 0; i < userlist.length; i++) {
-        let list = userlist[i];
-        let user = list.Player4Ign;
+    for (let i of userlist) {
+        let user = i.Player4Ign;
         if (player_4 == user) {
             isUsed = true;
             break;
@@ -190,9 +184,8 @@ function inGameName_4(player_4) {
 
 function inGameName_5(player_5) {
     let isUsed = false;
-    for (let i = 0; i < userlist.length; i++) {
-        let list = userlist[i];
-        let user = list.Player5Ign;
+    for (let i of userlist) {
+        let user = i.Player5Ign;
         if (player_5 == user) {
             isUsed = true;
             break;
@@ -204,9 +197,8 @@ function inGameName_5(player_5) {
 
 function characterId_1(id_1) {
     let isUsed = false;
-    for (let i = 0; i < userlist.length; i++) {
-        let list = userlist[i];
-        let user = list.characterid1;
+    for (let i of userlist) {
+        let user = i.characterid1;
         if (id_1 == user) {
             isUsed = true;
             break;
@@ -218,9 +210,8 @@ function characterId_1(id_1) {
 
 function characterId_2(id_2) {
     let isUsed = false;
-    for (let i = 0; i < userlist.length; i++) {
-        let list = userlist[i];
-        let user = list.characterid2;
+    for (let i of userlist) {
+        let user = i.characterid2;
         if (id_2 == user) {
             isUsed = true;
             break;
@@ -232,9 +223,8 @@ function characterId_2(id_2) {
 
 function characterId_3(id_3) {
     let isUsed = false;
-    for (let i = 0; i < userlist.length; i++) {
-        let list = userlist[i];
-        let user = list.characterid3;
+    for (let i of userlist) {
+        let user = i.characterid3;
         if (id_3 == user) {
             isUsed = true;
             break;
@@ -246,9 +236,8 @@ function characterId_3(id_3) {
 
 function characterId_4(id_4) {
     let isUsed = false;
-    for (let i = 0; i < userlist.length; i++) {
-        let list = userlist[i];
-        let user = list.characterid4;
+    for (let i of userlist) {
+        let user = i.characterid4;
         if (id_4 == user) {
             isUsed = true;
             break;
@@ -260,9 +249,8 @@ function characterId_4(id_4) {
 
 function characterId_5(id_5) {
     let isUsed = false;
-    for (let i = 0; i < userlist.length; i++) {
-        let list = userlist[i];
-        let user = list.characterid5;
+    for (let i of userlist) {
+        let user = i.characterid5;
         if (id_5 == user) {
             isUsed = true;
             break;

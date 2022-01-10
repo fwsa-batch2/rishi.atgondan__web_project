@@ -63,7 +63,8 @@ body {
 
 .download-buttons {
     margin-left: 75%;
-    margin-top: -57px;
+    margin-top: -60px;
+    height: 98%;
 }
 
 .download_btn {
@@ -85,7 +86,7 @@ body {
 }
 
 .shopping {
-    margin-left: 96.7%;
+    margin-left: 827%;
     margin-top: -3.6%;
     cursor: pointer;
 }
@@ -98,8 +99,8 @@ body {
 }
 
 .img-1 {
-    width: 600;
-    height: 250;
+    width: 600px;
+    height: 250px;
     border: 8px;
     margin-left: 610px;
     border-style: solid;
@@ -216,8 +217,9 @@ tr, td, th {
     padding: 10px;
     height: 70px;
     width: 250px;
-    margin-left: 1000px;
+    margin-left: 1100px;
     margin-top: -400px;
+    position: absolute;
     cursor: pointer;
 }
 

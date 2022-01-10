@@ -60,7 +60,8 @@ body {
 
 .download-buttons {
     margin-left: 75%;
-    margin-top: -57px;
+    margin-top: -60px;
+    height: 98%;
 }
 
 .download_btn {
@@ -82,7 +83,7 @@ body {
 }
 
 .shopping {
-    margin-left: 96.7%;
+    margin-left: 827%;
     margin-top: -3.6%;
     cursor: pointer;
 }
@@ -124,9 +125,14 @@ body {
     margin-top: 3%;
 }
 
-.video {
-    margin-left: 10%;
-    margin-bottom: 3%;
+#video1 {
+    height: 700px;
+    width: 80%;
+}
+
+#video2 {
+    height: 700px;
+    width: 80%;
 }
 
 .heading {

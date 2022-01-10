@@ -60,7 +60,8 @@ body {
 
 .download-buttons {
     margin-left: 75%;
-    margin-top: -57px;
+    margin-top: -60px;
+    height: 98%;
 }
 
 .download_btn {
@@ -82,7 +83,7 @@ body {
 }
 
 .shopping {
-    margin-left: 96.7%;
+    margin-left: 827%;
     margin-top: -3.6%;
     cursor: pointer;
 }
@@ -313,7 +314,7 @@ body {
 .notice1 {
     background-color: white;
     width: 26%;
-    height: 90%;
+    height: 800px;
     margin-top: 80px;
     margin-left: 150px;
     position: relative;
@@ -322,8 +323,8 @@ body {
 .notice2 {
     background-color: white;
     width: 26%;
-    height: 90%;
-    margin-top: -45.8%;
+    height: 800px;
+    margin-top: -43.9%;
     margin-left: 38%;
     position: relative;
 }
@@ -331,8 +332,8 @@ body {
 .notice3 {
     background-color: white;
     width: 26%;
-    height: 90%;
-    margin-top: -45.8%;
+    height: 800px;
+    margin-top:-43.9%;
     margin-left: 68%;
     position: relative;
 }
