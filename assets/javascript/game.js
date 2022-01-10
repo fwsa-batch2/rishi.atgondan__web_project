@@ -1,6 +1,3 @@
-// function alert() {
-//     prompt.Audio.play('../../assets/images/duck.mp3')
-// }
 function start() {
     document.getElementById("").style.visibility = "hidden"
 }

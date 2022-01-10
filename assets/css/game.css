@@ -16,7 +16,12 @@
 .duck {
     height: 140px;
     cursor: cell;
+    animation: duck 15s linear infinite;
 }
+@keyframes duck {
+    0% { transform: translate(0, 0); }
+    200% { transform: translate(1%, 1%); }
+    } 
 
 .duck2 {
     height: 140px;

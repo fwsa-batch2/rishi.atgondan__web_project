@@ -30,7 +30,7 @@ function display(x) {
 }
 
 let userList = [];
-function submitHandler() {
+function submitHandler(event) {
     event.preventDefault();
     const characterId = document.getElementById("chr_id").value;
 

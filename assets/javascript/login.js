@@ -13,7 +13,7 @@ function onPageLoad() {
 
 onPageLoad()
 
-function submitHandler() {
+function submitHandler(event) {
     event.preventDefault();
     const mail = document.getElementById("mail").value;
     const clan = document.getElementById("clan").value;
@@ -105,7 +105,7 @@ function submitHandler() {
 
 function emailValid(currentMail) {
     let isUsed = false;
-    for (i = 0; i < userlist.length; i++) {
+    for (let i = 0; i < userlist.length; i++) {
         let list = userlist[i];
         let user = list.mail;
         if (currentMail == user) {
@@ -119,7 +119,7 @@ function emailValid(currentMail) {
 
 function teamName(currentTeam) {
     let team1 = false;
-    for (i = 0; i < userlist.length; i++) {
+    for (let i = 0; i < userlist.length; i++) {
         let list = userlist[i];
         let user = list.team;
         if (currentTeam == user) {
@@ -134,7 +134,7 @@ function teamName(currentTeam) {
 
 function inGameName_1(player_1) {
     let isUsed = false;
-    for (i = 0; i < userlist.length; i++) {
+    for (let i = 0; i < userlist.length; i++) {
         let list = userlist[i];
         let user = list.Player1Ign;
         if (player_1 == user) {
@@ -148,7 +148,7 @@ function inGameName_1(player_1) {
 
 function inGameName_2(player_2) {
     let isUsed = false;
-    for (i = 0; i < userlist.length; i++) {
+    for (let i = 0; i < userlist.length; i++) {
         let list = userlist[i];
         let user = list.Player2Ign;
         if (player_2 == user) {
@@ -162,7 +162,7 @@ function inGameName_2(player_2) {
 
 function inGameName_3(player_3) {
     let isUsed = false;
-    for (i = 0; i < userlist.length; i++) {
+    for (let i = 0; i < userlist.length; i++) {
         let list = userlist[i];
         let user = list.Player3Ign;
         if (player_3 == user) {
@@ -176,7 +176,7 @@ function inGameName_3(player_3) {
 
 function inGameName_4(player_4) {
     let isUsed = false;
-    for (i = 0; i < userlist.length; i++) {
+    for (let i = 0; i < userlist.length; i++) {
         let list = userlist[i];
         let user = list.Player4Ign;
         if (player_4 == user) {
@@ -190,7 +190,7 @@ function inGameName_4(player_4) {
 
 function inGameName_5(player_5) {
     let isUsed = false;
-    for (i = 0; i < userlist.length; i++) {
+    for (let i = 0; i < userlist.length; i++) {
         let list = userlist[i];
         let user = list.Player5Ign;
         if (player_5 == user) {
@@ -204,7 +204,7 @@ function inGameName_5(player_5) {
 
 function characterId_1(id_1) {
     let isUsed = false;
-    for (i = 0; i < userlist.length; i++) {
+    for (let i = 0; i < userlist.length; i++) {
         let list = userlist[i];
         let user = list.characterid1;
         if (id_1 == user) {
@@ -218,7 +218,7 @@ function characterId_1(id_1) {
 
 function characterId_2(id_2) {
     let isUsed = false;
-    for (i = 0; i < userlist.length; i++) {
+    for (let i = 0; i < userlist.length; i++) {
         let list = userlist[i];
         let user = list.characterid2;
         if (id_2 == user) {
@@ -232,7 +232,7 @@ function characterId_2(id_2) {
 
 function characterId_3(id_3) {
     let isUsed = false;
-    for (i = 0; i < userlist.length; i++) {
+    for (let i = 0; i < userlist.length; i++) {
         let list = userlist[i];
         let user = list.characterid3;
         if (id_3 == user) {
@@ -246,7 +246,7 @@ function characterId_3(id_3) {
 
 function characterId_4(id_4) {
     let isUsed = false;
-    for (i = 0; i < userlist.length; i++) {
+    for (let i = 0; i < userlist.length; i++) {
         let list = userlist[i];
         let user = list.characterid4;
         if (id_4 == user) {
@@ -260,7 +260,7 @@ function characterId_4(id_4) {
 
 function characterId_5(id_5) {
     let isUsed = false;
-    for (i = 0; i < userlist.length; i++) {
+    for (let i = 0; i < userlist.length; i++) {
         let list = userlist[i];
         let user = list.characterid5;
         if (id_5 == user) {
