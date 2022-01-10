@@ -47,10 +47,9 @@ body {
 }
 
 .first-nav li.design a {
-    color: #eca800;
+    color: black;
     border-radius: 20px;
     background-color: #eca800;
-    color: black;
 }
 
 .second-nav li {

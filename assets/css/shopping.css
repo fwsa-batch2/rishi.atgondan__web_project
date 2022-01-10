@@ -169,7 +169,6 @@
 }
 
 .tr, td {
-    border: 1px #000000 solid;
     width: 300px;
     height: 70px;
     border-radius: 10px;

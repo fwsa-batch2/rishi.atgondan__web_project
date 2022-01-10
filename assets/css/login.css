@@ -5,7 +5,9 @@
 body {
   margin-left: 0px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
+  background-image: url("../images/loginpubg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 #navbar {
@@ -44,7 +46,6 @@ body {
 }
 
 .first-nav li.design a {
-  color: #eca800;
   border-radius: 20px;
   background-color: #eca800;
   color: black;
@@ -86,14 +87,6 @@ body {
   margin-left: 96.7%;
   margin-top: -3.6%;
   cursor: pointer;
-}
-
-
-body {
-  background-image: url("../images/loginpubg.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-
 }
 
 button {
