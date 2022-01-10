@@ -1,19 +1,46 @@
-* {
-    background-color: black;
-}
-
 .top_div {
     background-color: white;
     height: 100px;
-    width: 100.45%;
+    width: 101.30%;
     margin-top: -7;
+    margin-left: -1%;
 }
 
 .heading {
-    color:;
     margin-top: 50px;
     text-align: center;
-    margin-top: -80px;
+    margin-top: -90px;
     background-color: white;
+    font-size: 70px;
+}
 
+.duck {
+    height: 140px;
+    cursor: cell;
+}
+
+.duck2 {
+    height: 140px;
+    margin-left: 400px;
+    cursor: cell;
+}
+
+.duck3 {
+    height: 140px;
+    margin-left: 400px;
+    cursor: cell;
+}
+
+#points {
+    color: black;
+    margin-top: -6%;
+    background-color: white;
+    margin-left: 85%;
+    font-size: 40px;
+}
+
+hr {
+    height: 5px;
+    background-color: black;
+    margin-top: -40px;
 }
