@@ -1,9 +1,9 @@
-body{
+/* body {
     background-image: url('./../images/duck_bg.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;
-}
+} */
 
 .top_div {
     background-color: white;
@@ -23,17 +23,13 @@ body{
 .duck {
     height: 140px;
     cursor: cell;
-    animation: duck 15s linear infinite;
 }
-@keyframes duck {
-    0% { transform: translate(0, 0); }
-    200% { transform: translate(1%, 1%); }
-    } 
 
 .duck2 {
     height: 140px;
     margin-left: 400px;
     cursor: cell;
+    padding-top: 50x;
 }
 
 .duck3 {
@@ -54,4 +50,24 @@ hr {
     height: 5px;
     background-color: black;
     margin-top: -40px;
+}
+
+#marquee {
+    scroll-behavior: smooth;
+    animation-name: teddy;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-duration: 8s;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes teddy {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
 }
