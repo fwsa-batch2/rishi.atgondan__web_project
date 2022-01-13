@@ -114,12 +114,12 @@ p {
 }
 
 #start {
-    margin-left: 34%;
+    margin-left: 35%;
     height: 40px;
     border-radius: 10px;
     font-size: 20px;
     cursor: pointer;
-    margin-top: 70px;
+    margin-top: 30px;
     background-color: #eca800;
     border: 1px solid white;
 }

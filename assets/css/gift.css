@@ -1,0 +1,39 @@
+body {
+    background-image: url('./../images/congrats.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.teddy {
+    margin-left: 250px;
+    margin-top: 250px;
+}
+
+#h1 {
+    position: absolute;
+    font-size: 160px;
+    margin-top: -30%;
+    margin-left: 38%;
+    font-size: 100px;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: white;
+}
+
+p {
+    font-size: 40px;
+    margin-top: -350px;
+    margin-left: 700px;
+}
+
+.home {
+    height: 60px;
+    width: 60px;
+    border-radius: 100px;
+    background-color: #eca800;
+    margin-left: 90%;
+    border: none;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 30px;
+}

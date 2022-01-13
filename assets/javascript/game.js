@@ -314,7 +314,7 @@ function teddy16() {
 
 function redirect(x) {
     if (x == "collect")
-        window.location.href = "./../../index.html"
+        window.location.href = "./../../pages/gift.html"
 }
 redirect(x);
 
