@@ -12,10 +12,9 @@ body {
 
 #h1 {
     position: absolute;
-    font-size: 160px;
+    font-size: 100px;
     margin-top: -30%;
     margin-left: 38%;
-    font-size: 100px;
     -webkit-text-stroke-width: 3px;
     -webkit-text-stroke-color: white;
 }
