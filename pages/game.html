@@ -7,43 +7,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Games</title>
     <link rel="stylesheet" type="text/css" href="../assets/css/game.css">
+    <link rel="icon" type="image/x-icon" href="./../assets/images/favicon.png">
     <script src="../assets/javascript/audio.js"></script>
 </head>
 
 <body>
-    <div class="top_div">
-
-    </div>
-
-    <h1 class="heading">Shoot The Duck</h1>
-    <p id="points">Points : 100</p><br><br>
-    <hr id="hr">
-    <div id="duckss">
-        <p id="marquee"><img id="img1" onclick="duck1('clear')" class="duck" src="./../assets/images/teddy.png"
-                alt="teddy"> <img id="img2" onclick="duck2('clear')" class="duck2" src="./../assets/images/teddy.png"
-                alt="teddy">
-            <img id="img3" onclick="duck3('clear')" class="duck3" src="./../assets/images/teddy.png" alt="teddy">
+    <strong><span id="heading">Shoot The Teddy</span></strong>
+    <p class="p1">POINTS :</p>
+    <p id="points">0</p><br><br>
+    <div class="teddy_div">
+        <p id="marquee">
+            <img id="img1" onclick="teddy1('clear')" src="./../assets/images/teddy.png" alt="teddy">
+            <img id="img2" onclick="teddy2('clear')" src="./../assets/images/teddy.png" alt="teddy">
+            <img id="img3" onclick="teddy3('clear')" src="./../assets/images/teddy.png" alt="teddy">
+            <img id="img4" onclick="teddy4('clear')" src="./../assets/images/teddy.png" alt="teddy">
         </p>
+        <p id="marquee2">
+            <img id="img5" onclick="teddy5('clear')" src="./../assets/images/teddy.png" alt="teddy">
+            <img id="img6" onclick="teddy6('clear')" src="./../assets/images/teddy.png" alt="teddy">
+            <img id="img7" onclick="teddy7('clear')" src="./../assets/images/teddy.png" alt="teddy">
+            <img id="img8" onclick="teddy8('clear')" src="./../assets/images/teddy.png" alt="teddy">
+        </p>
+        <p id="marquee">
 
+            <img id="img9" onclick="teddy9('clear')" src="./../assets/images/teddy.png" alt="teddy">
+            <img id="img10" onclick="teddy10('clear')" src="./../assets/images/teddy.png" alt="teddy">
+            <img id="img11" onclick="teddy11('clear')" src="./../assets/images/teddy.png" alt="teddy">
+            <img id="img12" onclick="teddy12('clear')" src="./../assets/images/teddy.png" alt="teddy">
+        <p id="marquee2">
 
-        <img id="img4" onclick="duck4('clear')" class="duck" src="./../assets/images/teddy.png" alt="teddy">
-        <img id="img5" onclick="duck5('clear')" class="duck2" src="./../assets/images/teddy.png" alt="teddy"> <img
-            id="img6" onclick="duck6('clear')" class="duck3" src="./../assets/images/teddy.png" alt="teddy">
-
-
-        <img id="img7" onclick="duck7('clear')" class="duck" src="./../assets/images/teddy.png" alt="teddy"> <img
-            id="img8" onclick="duck8('clear')" class="duck2" src="./../assets/images/teddy.png" alt="teddy">
-        <img id="img9" onclick="duck9('clear')" class="duck3" src="./../assets/images/teddy.png" alt="teddy">
-
-        <img id="img10" onclick="duck10('clear')" class="duck" src="./../assets/images/teddy.png" alt="teddy"> <img
-            id="img11" onclick="duck11('clear')" class="duck2" src="./../assets/images/teddy.png" alt="teddy"> <img
-            id="img12" onclick="duck12('clear')" class="duck3" src="./../assets/images/teddy.png" alt="teddy">
-
-        <img id="img13" onclick="duck13('clear')" class="duck" src="./../assets/images/teddy.png" alt="teddy"><img
-            id="img14" onclick="duck14('clear')" class="duck2" src="./../assets/images/teddy.png" alt="teddy"> <img
-            id="img15" onclick="duck15('clear')" class="duck3" src="./../assets/images/teddy.png" alt="teddy">
+            <img id="img13" onclick="teddy13('clear')" src="./../assets/images/teddy.png" alt="teddy">
+            <img id="img14" onclick="teddy14('clear')" src="./../assets/images/teddy.png" alt="teddy">
+            <img id="img15" onclick="teddy15('clear')" src="./../assets/images/teddy.png" alt="teddy">
+            <img id="img16" onclick="teddy16('clear')" src="./../assets/images/teddy.png" alt="teddy">
+        </p>
     </div>
-
+    <div id="winner1">
+        <img id="gif1" src="./../assets/images/party_gif1.webp" alt="partypopers">
+        <img id="gif2" src="./../assets/images/party_gif1.webp" alt="partypopers">
+        <img id="gif3" src="./../assets/images/party_gif1.webp" alt="partypopers">
+        <img id="gif4" src="./../assets/images/party_gif1.webp" alt="partypopers">
+    </div>
+    <div id="winner2">
+        <img id="rocket1" src="./../assets/images/party_gif2.webp" alt="crackers">
+        <img id="rocket2" src="./../assets/images/party_gif2.webp" alt="crackers">
+    </div>
+    <div id="prize">
+        <img id="prize_teddy" src="./../assets/images/prize_teddy.jpeg" alt="prize">
+        <p id="gift">Here Is Your Gift</p>
+    </div>
+    <button id="collect" onclick="redirect('collect')">Collect</button>
     <script src="../assets/javascript/game.js"></script>
 </body>
 

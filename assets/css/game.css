@@ -1,55 +1,187 @@
-/* body {
-    background-image: url('./../images/duck_bg.jpg');
+body {
+    background-image: url('./../images/newgame_bg.jpeg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;
-} */
-
-.top_div {
-    background-color: white;
-    height: 100px;
-    width: 101.30%;
-    margin-top: -7;
-    margin-left: -1%;
 }
 
-.heading {
-    text-align: center;
-    margin-top: -90px;
-    background-color: white;
+#heading {
     font-size: 70px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    margin-left: 36%;
+    position: absolute;
+    margin-top: 1.5%;
+
 }
 
-.duck {
-    height: 140px;
-    cursor: cell;
+.teddy_div {
+    margin-top: 135px;
+    margin-left: 7.7%;
+    height: 700px;
+    width: 84.6%;
+    overflow: hidden;
 }
 
-.duck2 {
-    height: 140px;
-    margin-left: 400px;
-    cursor: cell;
-    padding-top: 50x;
-}
-
-.duck3 {
-    height: 140px;
-    margin-left: 400px;
-    cursor: cell;
-}
 
 #points {
     color: black;
-    margin-top: -6%;
-    background-color: white;
-    margin-left: 85%;
+    margin-right: -220px;
+    margin-top: 104px;
     font-size: 40px;
+    float: right;
 }
 
-hr {
-    height: 5px;
-    background-color: black;
-    margin-top: -40px;
+.p1 {
+    color: black;
+    margin-top: 110px;
+    margin-right: 180px;
+    float: right;
+    font-size: 35px;
+}
+
+#img1 {
+    height: 140px;
+    cursor: cell;
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 100px;
+}
+
+#img2 {
+    height: 140px;
+    margin-left: 800px;
+    cursor: cell;
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 500px;
+
+}
+
+#img3 {
+    height: 140px;
+    margin-left: 400px;
+    cursor: cell;
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 930px;
+}
+
+#img4 {
+    height: 140px;
+    cursor: cell;
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 1350px;
+}
+
+
+#img5 {
+    height: 140px;
+    margin-left: 400px;
+    cursor: cell;
+    margin-top: 130px;
+    position: absolute;
+    margin-left: 100px;
+
+}
+
+#img6 {
+    height: 140px;
+    cursor: cell;
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 500px;
+}
+
+#img7 {
+    height: 140px;
+    margin-left: 400px;
+    cursor: cell;
+    margin-top: 130px;
+    position: absolute;
+    margin-left: 930px;
+}
+
+#img8 {
+    height: 140px;
+    margin-left: 400px;
+    cursor: cell;
+    margin-top: 130px;
+    position: absolute;
+    margin-left: 1350px;
+}
+
+#img9 {
+    height: 140px;
+    margin-left: 400px;
+    cursor: cell;
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 100px;
+}
+
+#img10 {
+    height: 140px;
+    margin-left: 400px;
+    cursor: cell;
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 500px;
+}
+
+#img11 {
+    height: 140px;
+    margin-left: 400px;
+    cursor: cell;
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 930px;
+}
+
+#img12 {
+    height: 140px;
+    margin-left: 400px;
+    cursor: cell;
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 1350px;
+}
+
+#img13 {
+    height: 140px;
+    margin-left: 400px;
+    cursor: cell;
+    position: absolute;
+    margin-top: 430px;
+    margin-left: 100px;
+}
+
+#img14 {
+    height: 140px;
+    margin-left: 400px;
+    cursor: cell;
+    position: absolute;
+    margin-top: 430px;
+    margin-left: 500px;
+}
+
+#img15 {
+    height: 140px;
+    margin-left: 400px;
+    cursor: cell;
+    position: absolute;
+    margin-top: 430px;
+    margin-left: 930px;
+}
+
+#img16 {
+    height: 140px;
+    margin-left: 400px;
+    cursor: cell;
+    position: absolute;
+    margin-top: 430px;
+    margin-left: 1350px;
 }
 
 #marquee {
@@ -57,9 +189,8 @@ hr {
     animation-name: teddy;
     animation-delay: 0s;
     animation-iteration-count: infinite;
-    animation-duration: 8s;
+    animation-duration: 30s;
     animation-fill-mode: forwards;
-
 }
 
 @keyframes teddy {
@@ -70,4 +201,116 @@ hr {
     to {
         transform: translateX(-100%);
     }
+}
+
+#marquee2 {
+    scroll-behavior: smooth;
+    animation-name: teddy2;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-duration: 30s;
+    animation-fill-mode: backwards;
+
+}
+
+@keyframes teddy2 {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(100%);
+    }
+}
+
+#gif1 {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    margin-top: 140px;
+    padding-left: 150px;
+}
+
+#gif2 {
+    margin-top: 140px;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    padding-left: 1350px;
+}
+
+#gif3 {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    margin-top: 500px;
+    padding-left: 200px;
+}
+
+#gif4 {
+    float: left;
+    height: 300px;
+    width: 300px;
+    margin-top: 500px;
+    padding-left: 1350px;
+}
+
+#rocket1 {
+    float: right;
+    margin-right: 100px;
+    margin-top: -200px;
+}
+
+#rocket2 {
+    float: left;
+    margin-left: 100px;
+    margin-top: -200px;
+}
+
+#winner1 {
+    margin-top: -45%;
+    display: none;
+    position: absolute;
+}
+
+#winner2 {
+    display: none;
+}
+
+#prize {
+    background-color: white;
+    margin-top: -38%;
+    height: 450px;
+    width: 400px;
+    margin-left: 38%;
+    border-radius: 15px;
+    box-shadow: 0px 10px 30px black;
+    display: none;
+}
+
+#prize_teddy {
+    height: 200px;
+    margin-left: 30%;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 50px black;
+}
+
+#gift {
+    text-align: center;
+    font-size: 50px;
+}
+
+#collect {
+    margin-left: 44.5%;
+    height: 50px;
+    width: 150px;
+    background-color: lightblue;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+    margin-top: -70px;
+    position: absolute;
+    cursor: pointer;
+    display: none;
 }
