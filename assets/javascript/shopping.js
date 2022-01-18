@@ -42,7 +42,6 @@ function submitHandler(event) {
             "UC": noOfUc
         }
         userList.push(objectUC);
-
         let detailsInString = JSON.stringify(userList);
         localStorage.setItem("UC purchased", detailsInString);
         alert("Thank you for purchasing UC");
@@ -55,8 +54,6 @@ function getAll() {
     let inArray = [];
     if (arrayToString) {
         inArray = JSON.parse(arrayToString);
-    } else {
-        inArray = [];
     }
     return inArray;
 }

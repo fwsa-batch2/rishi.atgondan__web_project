@@ -6,9 +6,6 @@ function onPageLoad() {
     if (users != null) {
         userlist = users;
     }
-    else {
-        localStorage.setItem("REGISTRATION FORM", JSON.stringify([]));
-    }
 }
 
 onPageLoad()
