@@ -109,18 +109,27 @@ body {
     position: absolute;
 }
 
+span {
+    font-size: 100px;
+    border-radius: 100px;
+    color: #eca800;
+    margin-top: -56.3%;
+    margin-left: 41.5%;
+    position: absolute;
+}
+
 .game {
     height: 50px;
     width: 200px;
-    border-radius:20px ;
+    border-radius: 20px;
     font-size: 20px;
     background-color: #eca800;
-    margin-left: 43%;
+    margin-left: 45%;
     margin-top: -54.1%;
     color: black;
     text-decoration: none;
     border: #eca800 solid 5px;
-    box-shadow: 0px 0px 10px white ;
+    box-shadow: 0px 0px 10px white;
     cursor: pointer;
     position: absolute;
 }
