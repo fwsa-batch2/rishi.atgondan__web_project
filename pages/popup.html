@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" type="text/css" href="../assets/css/popup.css">
     <h1 class="registered"><ins>SUCCESSFULLY REGISTERED</ins></h1>
+</head>
 
 <body>
     <h1 class="info">
@@ -18,18 +19,17 @@
                 BE UPDATED THROUGH E-MAIL</strong> </p>
     </h1>
     <img class="bgmi" src="../assets/images/bgmi.jpg" alt="PUBG" title="PUBG">
-    <div class="div-1">
-        <form>
-            <h1><label>Comments </label>
-                <h1><textarea placeholder="welcome"></textarea>
-        </form>
-    </div>
-    <form>
-        <input class="submit" type="submit" name="submit" value="Submit">
+    <form onsubmit="submithandler(event)">
+        <div class="div-1">
+            <label>QUERIES</label><br>
+            <textarea id="query"></textarea>
+        </div>
+        <button class="submit">Submit</button>
     </form>
     <div class="smallhome">
         <a class="home" href="../index.html"><em class="fa fa-home"></em></a>
     </div>
+    <script src="./../assets/javascript/popup.js"></script>
 </body>
 
 </html>
