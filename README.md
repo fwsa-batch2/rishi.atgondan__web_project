@@ -40,10 +40,13 @@
 
 * player 4 chartacter id 4 entered must contains only numbers and the length is 8 digits if it is below than 8 error will be shown and not exist in local storage       already. if it is error will be shown('Character 4 id already exist')
 
-* player 15 chartacter id 5 entered must contains only numbers and the length is 8 digits if it is below than 8 error will be shown and not exist in local storage       already. if it is error will be shown('Character 5 id already exist')
+* player 15 chartacter id 5 entered must contains only numbers and the length is 8 digits if it is below than 8 error will be shown and not exist in local storage     already. if it is error will be shown('Character 5 id already exist')
 
 
 * If everything is validated it will be redirected to popup page. 
+
+### QUERIES 
+* After Registering pmit tournament your can submit your queries and it will be stored in the local storage
 
 ### SHOPPING CART PAGE
 * USER ID must contains only numbers and the lenght is 8 digits if it is below than 8 error will be shown.
