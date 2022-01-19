@@ -98,6 +98,19 @@ body {
     position: relative;
 }
 
+.add {
+    height: 40px;
+    width: 150px;
+    margin-left: 87.4%;
+    margin-top: 0.5%;
+    position: absolute;
+    border-radius: 100px;
+    border: 1px solid #eca800;
+    background-color: #eca800;
+    font-size: 16px;
+    cursor: pointer;
+}
+
 .box1 {
     height: 60%;
     width: 92%;
