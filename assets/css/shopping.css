@@ -183,7 +183,7 @@
 }
 
 
-#button {
+#button1, #button2, #button3, #button4, #button5, #button6 {
     height: 100%;
     width: 100%;
     border: 1px;
@@ -192,7 +192,7 @@
     border-radius: 10px;
 }
 
-#button:hover {
+#button1:hover, #button2:hover, #button3:hover, #button4:hover, #button5:hover, #button6:hover {
     background-color: #eca800;
 }
 
