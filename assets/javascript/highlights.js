@@ -5,9 +5,9 @@ function highlights() {
     for (let i of getHighlights) {
 
         let watchlist =
-            `<div class="box1">
-                  <iframe class="video1"> ${i.video} </iframe>
-                  <p class="para1"> ${i.text} </p>
+            `<div class=\"box1\">
+            <iframe class=\"video1\" src=\"${i.video}\" title=\"highlights\"></iframe> 
+                  <p class=\"para1\"> ${i.text} </p>
               </div>`;
         newhighlights = newhighlights + watchlist;
     }

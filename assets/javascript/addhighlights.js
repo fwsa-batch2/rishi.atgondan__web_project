@@ -13,9 +13,10 @@ onPageLoader();
 
 function addingVideo(event) {
     event.preventDefault();
-    let video = document.getElementById("video").value;
-    let text = document.getElementById("description").value;
+    let video = document.getElementById("video_input").value;
+    let text = document.getElementById("description_input").value;
 
+    console.log(video, text);
     let toBeAdded = {
         video: video,
         text: text,
