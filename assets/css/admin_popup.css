@@ -1,0 +1,51 @@
+body {
+    background-image: url("./../images/adminbg.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-position: center;
+    color: white;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+p {
+    color: black;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+#key {
+    height: 40px;
+    width: 300px;
+    border: none;
+    border-radius: 20px;
+    padding-left: 15px;
+}
+
+
+#login {
+    background-color: #eca800;
+    height: 200px;
+    width: 500px;
+    margin-left: 670px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+#submit {
+    margin-top: 20px;
+    height: 40px;
+    width: 130px;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: black;
+    color: white;
+}

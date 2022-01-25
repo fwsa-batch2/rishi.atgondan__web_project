@@ -43,14 +43,14 @@ function submitHandler(event) {
         }
         userList.push(objectUC);
         let detailsInString = JSON.stringify(userList);
-        localStorage.setItem("UC purchased", detailsInString);
+        localStorage.setItem("UC PURCHASED", detailsInString);
         alert("Thank you for purchasing UC");
         window.location.reload();
     }
 }
 
 function getAll() {
-    const arrayToString = localStorage.getItem("UC purchased");
+    const arrayToString = localStorage.getItem("UC PURCHASED");
     let inArray = [];
     if (arrayToString) {
         inArray = JSON.parse(arrayToString);

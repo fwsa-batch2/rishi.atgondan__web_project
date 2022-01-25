@@ -1,11 +1,11 @@
 let emptyarray = [];
 
 function onPageLoader() {
-    let newDetails = JSON.parse(localStorage.getItem("highlights"));
+    let newDetails = JSON.parse(localStorage.getItem("HIGHLIGHTS"));
     if (newDetails != null) {
         emptyarray = newDetails;
     } else {
-        localStorage.setItem("highlights", JSON.stringify([]));
+        localStorage.setItem("HIGHLIGHTS", JSON.stringify([]));
     }
     return emptyarray;
 }
@@ -15,14 +15,12 @@ function addingVideo(event) {
     event.preventDefault();
     let video = document.getElementById("video_input").value;
     let text = document.getElementById("description_input").value;
-
-    console.log(video, text);
     let toBeAdded = {
         video: video,
         text: text,
     };
     emptyarray.push(toBeAdded);
-    localStorage.setItem("highlights", JSON.stringify(emptyarray));
+    localStorage.setItem("HIGHLIGHTS", JSON.stringify(emptyarray));
     window.location.href = "./highlights.html"
 }
 

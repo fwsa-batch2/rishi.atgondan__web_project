@@ -10,10 +10,10 @@
     <link rel="icon" type="image/x-icon" href="../assets/images/favicon.png">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" type="text/css" href="../assets/css/popup.css">
-    <h1 class="registered"><ins>SUCCESSFULLY REGISTERED</ins></h1>
 </head>
 
 <body>
+    <h1 class="registered"><ins>SUCCESSFULLY REGISTERED</ins></h1>
     <h1 class="info">
         <p>YOUR TEAM AS BEEN SUCCESSFULLY REGISTERED FOR PMIT QUALIFIERS<br> <strong>TIMINGS, MAPS AND SLOT LIST WILL
                 BE UPDATED THROUGH OUR OFFICIAL WEBSITE</strong> </p>
@@ -22,13 +22,15 @@
     <form onsubmit="submithandler(event)">
         <div class="div-1">
             <label>QUERIES</label><br>
-            <textarea id="query" placeholder="Type your queries here.." ></textarea>
+            <textarea id="query" placeholder="Type your queries here.." pattern="^[a-zA-Z0-9_]+( [a-zA-Z0-9_]+)*$"
+                required></textarea>
         </div>
         <button class="submit">Submit</button>
     </form>
     <div class="smallhome">
         <a class="home" href="../index.html"><em class="fa fa-home"></em></a>
     </div>
+    <button onclick="redirectToAdminPage()" id="query_bttn">Check Queries</button>
     <script src="./../assets/javascript/popup.js"></script>
 </body>
 
