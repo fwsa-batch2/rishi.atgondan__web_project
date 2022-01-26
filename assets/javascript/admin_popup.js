@@ -5,6 +5,6 @@ function checkingAdminKey(event) {
     if (key == keyFromUser) {
         window.location.href = "./../../pages/show_queries.html"
     } else {
-        alert("INVALID ADMIN KEY");
+        document.getElementById("error").innerText = "*invalid admin key";
     }
 }

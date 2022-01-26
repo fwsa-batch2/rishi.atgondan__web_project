@@ -92,66 +92,64 @@ body {
 }
 
 
-.h1-1 {
+.heading {
     font-size: 40px;
     color: white;
     text-align: center;
 }
 
-.img-1 {
+.pmco_img {
     width: 600px;
     height: 250px;
-    border: 8px;
+    margin-top: 30px;
     margin-left: 610px;
-    border-style: solid;
+   border: solid 5px black;
 }
 
-.h2-1 {
+.title {
     color: gold;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: xx-large;
     text-align: center;
+    margin-bottom: 50px;
 }
 
-.h2-2 {
+.team_name {
     color: azure;
-    font-family: fantasy;
-    margin-top: 100px;
+    margin-left: 10px;
 }
 
-.img-2 {
+.team_logo {
+    margin-left: 10px;
     width: 250px;
     height: 250px;
     border-style: solid;
     border: 8px;
 }
 
-.h2-3 {
+.about_team {
     color: rgb(227, 233, 238);
     margin-left: 270px;
     margin-top: -250px;
     margin-bottom: 230px;
 }
 
-.h2-4 {
-    color: azure;
-
-}
-
-.h1-2 {
+.about_pmco {
     color: snow;
+    margin-left: 10px;
 
 }
 
-.h2-5 {
+.para_pmco {
     color: yellow;
+    margin-left: 10px;
 }
 
-.h2-6 {
+.pmco_info {
     color: white;
+    font-size: x-large;
 }
 
-.h1-3 {
+.slot_table {
     color: lightyellow;
     font-size: xx-large;
     text-align: center;
@@ -166,27 +164,32 @@ td {
     padding-left: 25px;
 }
 
-.h3-1 {
+.rules {
     color: lightcyan;
 }
 
 .table {
     height: 600px;
-    width: 300px;
+    width: 350px;
     border: 5px gold solid;
     background-color: transparent;
-    margin-left: 740px;
+    margin-left: 720px;
 }
 
 tr, td, th {
     border: 1px gold solid;
 }
 
-.div-1 {
+.live {
+    color: gold;
+    text-align: center;
+}
+
+.live_div {
     margin-left: 750px;
 }
 
-.bttn-1 {
+.watch_online {
     font-size: x-large;
     background-color: azure;
     padding: 10px;
@@ -196,17 +199,12 @@ tr, td, th {
     cursor: pointer;
 }
 
-.h1-4 {
-    color: gold;
-    text-align: center;
-}
-
-.div-2 {
+.end_div {
     margin-left: 200px;
     margin-top: 80px;
 }
 
-.bttn-2 {
+.bttn_to_next_page {
     font-size: x-large;
     border-radius: 10px;
     background-color: azure;

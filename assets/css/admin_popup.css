@@ -17,26 +17,32 @@ p {
     padding-top: 20px;
 }
 
-#key {
-    height: 40px;
-    width: 300px;
-    border: none;
-    border-radius: 20px;
-    padding-left: 15px;
-}
-
-
 #login {
     background-color: #eca800;
-    height: 200px;
+    height: 230px;
     width: 500px;
     margin-left: 670px;
     border-radius: 50px;
     text-align: center;
 }
 
+#key {
+    height: 40px;
+    width: 300px;
+    border: none;
+    border-radius: 20px;
+    padding-left: 15px;
+    margin-top: -10px;
+}
+
+span {
+    color: red;
+    font-size: 15px;
+}
+
+
 #submit {
-    margin-top: 20px;
+    margin-top: 25px;
     height: 40px;
     width: 130px;
     border-radius: 20px;

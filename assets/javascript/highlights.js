@@ -3,7 +3,6 @@ function highlights() {
 
     let newhighlights = "";
     for (let i of getHighlights) {
-
         let watchlist =
             `<div class=\"box1\">
             <iframe class=\"video1\" src=\"${i.video}\" title=\"highlights\"></iframe> 
