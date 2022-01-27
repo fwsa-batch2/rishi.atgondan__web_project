@@ -18,3 +18,17 @@ body {
     font-size: 50px;
 }
 
+.home {
+    height: 80px;
+    width: 80px;
+    border-radius: 100px;
+    background-color: #eca800;
+    border: none;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 25px;
+    position: absolute;
+    margin-left: 95%;
+    margin-top: -2%;
+    
+}

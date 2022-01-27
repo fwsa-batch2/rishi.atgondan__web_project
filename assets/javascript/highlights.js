@@ -14,3 +14,7 @@ function highlights() {
 }
 highlights();
 
+function redirectToAdminPage() {
+    window.location.href = "./../../pages/admin_highlights.html"
+}
+
