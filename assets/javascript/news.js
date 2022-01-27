@@ -27,3 +27,7 @@ function get4(x) {
     }
 }
 
+function redirectToAdminPage(){
+    window.location.href = "./../../pages/admin_news.html"
+}
+

@@ -113,7 +113,6 @@ body {
 .bttn_div {
     background-color: black;
     height: 70px;
-
 }
 
 .dropdown1 {
@@ -144,6 +143,24 @@ body {
 .dropdown:hover {
     box-shadow: 0 0 10px white;
 }
+
+.add_news{
+    height: 50px;
+    width: 150px;
+    margin-left: 330px;
+    border-radius: 100px;
+    background-color: #eca800;
+    border: 1px solid black;
+    font-size: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.add_news:hover{
+    box-shadow: 0 0 10px white;
+}
+
+
 
 .select {
     margin-left: 44%;

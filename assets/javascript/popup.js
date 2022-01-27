@@ -8,7 +8,6 @@ function pageOnLoad() {
 }
 pageOnLoad();
 
-
 function submithandler(event) {
     event.preventDefault();
     const comments = document.getElementById("query").value;
@@ -18,7 +17,7 @@ function submithandler(event) {
     userlist.push(queries);
     let detailsInString = JSON.stringify(userlist);
     localStorage.setItem("QUERIES", detailsInString);
-    alert("Thanks for the comments");
+    alert("Your queries are noted and we will soon respond back");
     window.location.reload();
 }
 
