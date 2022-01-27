@@ -6,6 +6,5 @@ function showListOfQueries() {
         ShowQueries = ShowQueries + addedQueries;
     }
     document.getElementById("list_of_queries").innerHTML = ShowQueries;
-    console.log(ShowQueries);
 }
-showListOfQueries(event);
+showListOfQueries();
