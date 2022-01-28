@@ -2,21 +2,21 @@ let notice = [];
 let achievements = [];
 let events = [];
 
-function onPageLoader() {
+function onPageLoaderNotice() {
     let newDetails = JSON.parse(localStorage.getItem("NOTICE"));
     if (newDetails != null) {
         notice = newDetails
     }
 }
-onPageLoader();
+onPageLoaderNotice();
 
-function onPageLoader() {
+function onPageLoaderAchievements() {
     let newDetails = JSON.parse(localStorage.getItem("ACHIEVEMENTS"));
     if (newDetails != null) {
         achievements = newDetails
     }
 }
-onPageLoader();
+onPageLoaderAchievements();
 
 function onPageLoader() {
     let newDetails = JSON.parse(localStorage.getItem("EVENTS"));
@@ -28,8 +28,10 @@ onPageLoader();
 
 function addingNotice(event) {
     event.preventDefault();
+    let heading = document.getElementById("notice_heading").value;
     let text = document.getElementById("description_input").value;
     let toBeAdded = {
+        "heading": heading,
         "text": text,
     };
     notice.push(toBeAdded);
@@ -39,9 +41,11 @@ function addingNotice(event) {
 
 function addingAchievements(event) {
     event.preventDefault();
+    let heading = document.getElementById("achievement_heading").value;
     let image = document.getElementById("image_input1").value;
     let text = document.getElementById("achievements_text").value;
     let toBeAdded = {
+        "heading": heading,
         "image": image,
         "text": text,
     };

@@ -144,7 +144,7 @@ body {
     box-shadow: 0 0 10px white;
 }
 
-.add_news{
+.add_news {
     height: 50px;
     width: 150px;
     margin-left: 330px;
@@ -156,7 +156,7 @@ body {
     cursor: pointer;
 }
 
-.add_news:hover{
+.add_news:hover {
     box-shadow: 0 0 10px white;
 }
 
@@ -328,13 +328,18 @@ body {
     margin-top: 20px;
 }
 
+#added_achievements {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
 .notice1 {
     background-color: white;
     width: 26%;
     height: 800px;
     margin-top: 80px;
-    margin-left: 150px;
-    position: relative;
+    margin-left: 110px;
 }
 
 .notice2 {
@@ -350,7 +355,7 @@ body {
     background-color: white;
     width: 26%;
     height: 800px;
-    margin-top:-43.9%;
+    margin-top: -43.9%;
     margin-left: 68%;
     position: relative;
 }
@@ -384,6 +389,12 @@ body {
 
 }
 
+#added_notices {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
 .event {
     background-color: white;
     width: 85%;
@@ -392,7 +403,6 @@ body {
     margin-left: 7%;
     border-radius: 20px;
     border: solid 5px #eca800;
-    position: relative;
 }
 
 .events {
@@ -406,6 +416,12 @@ body {
     border: solid 3px black;
     margin-top: 60px;
 
+}
+
+.added_events {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
 }
 
 .text_tourney {

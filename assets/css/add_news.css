@@ -2,6 +2,12 @@ body {
     background-color: black;
 }
 
+h2{
+    text-align: center;
+    margin-top: -50px;
+    font-size: 40px;
+}
+
 h1 {
     color: white;
     text-align: center;
@@ -68,16 +74,39 @@ h1 {
 #notice_img {
     margin-left: 10px;
     margin-top: 10px;
-    height: 300px;
+    height: 200px;
     width: 480px;
     border-radius: 10px;
 }
 
+.notice {
+    margin-left: 20px;
+    font-size: 50px;
+    margin-top: 1px;
+    color: #FFF000;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    font-family: sans-serif;
+}
+
+#notice_heading {
+    margin-top: -40px;
+    height: 40px;
+    width: 400px;
+    margin-left: 36px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding-left: 30px;
+    position: absolute;
+    border: none;
+
+}
+
 #description_input {
-    height: 230px;
+    height: 240px;
     width: 450px;
     position: absolute;
-    margin-top: 5px;
+    margin-top: -5px;
     margin-left: 10px;
     border: 3px solid black;
     border-radius: 10px;
@@ -92,7 +121,7 @@ h1 {
     border: 1px solid black;
     position: absolute;
     margin-left: 170px;
-    margin-top: 280px;
+    margin-top: 270px;
     font-size: 20px;
     border-radius: 10px;
     cursor: pointer;
@@ -114,27 +143,39 @@ h1 {
 
 }
 
+#achievement_heading{
+    margin-top: -20px;
+    height: 40px;
+    width: 400px;
+    margin-left: 36px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding-left: 30px;
+    position: absolute;
+    border: none;
+}
+
 #image_title1 {
     font-size: 30px;
-    margin-top: -45px;
-    margin-left: 170px;
+    margin-top: 20px;
+    margin-left: 10px;
     position: absolute;
 }
 
 #image_input1 {
     height: 40px;
-    width: 450px;
-    margin-top: 30px;
+    width: 270px;
+    margin-top: -35px;
     position: absolute;
-    margin-left: -160px;
+    margin-left: 180px;
     border: 0px solid;
     border-radius: 10px;
-    padding-left: 30px;
+    padding-left: 10px;
     font-size: 20px;
 }
 
 #achievements_text {
-    height: 350px;
+    height: 270px;
     width: 450px;
     position: absolute;
     margin-top: 70px;
@@ -152,7 +193,7 @@ h1 {
     border: 1px solid black;
     position: absolute;
     margin-left: 170px;
-    margin-top: 450px;
+    margin-top: 380px;
     font-size: 20px;
     border-radius: 10px;
     cursor: pointer;
@@ -164,24 +205,24 @@ h1 {
 }
 
 
-#add_events{
+#add_events {
     height: 650px;
     width: 500px;
     background-color: #eca800;
     margin-top: 4%;
     margin-left: 630px;
     display: none;
- 
+
 }
 
-#image_title2{
-    font-size: 30px;
+#image_title2 {
+    font-size: 40px;
     position: absolute;
     margin-top: -45px;
     margin-left: 170px;
 }
 
-#image_input2{
+#image_input2 {
     height: 40px;
     width: 450px;
     margin-top: 20px;
@@ -193,7 +234,7 @@ h1 {
     font-size: 20px;
 }
 
-#event_name{
+#event_name {
     height: 350px;
     width: 450px;
     position: absolute;
@@ -206,7 +247,7 @@ h1 {
     font-size: 20px;
 }
 
-#submit3{
+#submit3 {
     height: 40px;
     width: 150px;
     border: 1px solid black;
@@ -222,5 +263,3 @@ h1 {
     color: white;
     background-color: black;
 }
-
-
