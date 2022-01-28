@@ -1,102 +1,11 @@
-* {
-    scroll-behavior: smooth;
-}
-
-strong {
-    color: black;
-}
-
 body {
-    margin-left: 0px;
-    font-family: sans-serif;
     background-color: black;
 }
 
-#navbar {
-    background-color: black;
-    height: 70px;
-    width: 100.45%;
-    margin-top: -12px;
-}
-
-.logo {
-    height: 70px;
-    width: 160px;
-}
-
-.first-nav {
-    margin-left: 150px;
-    margin-top: -42px;
-}
-
-.first-nav li {
-    display: inline-block;
-}
-
-.first-nav li a {
-    text-decoration: none;
+h1 {
+    text-align: center;
+    font-size: 80px;
     color: white;
-    padding: 8px 24px;
-    transition: 0.3s;
-}
-
-.first-nav li a:hover {
-    border-radius: 20px;
-    color: black;
-    background-color: #eca800;
-}
-
-.first-nav li.design a {
-    border-radius: 20px;
-    background-color: #eca800;
-    color: black;
-}
-
-.second-nav li {
-    display: inline-block;
-}
-
-.second-nav {
-    margin-left: 63%;
-    margin-top: -3.3%;
-}
-
-.download-buttons {
-    margin-left: 75%;
-    margin-top: -60px;
-    height: 98%;
-}
-
-.download_btn {
-    height: 90%;
-    width: 185px;
-    background-color: #eca800;
-    border: none;
-    font-size: medium;
-}
-
-.download_btn a {
-    text-decoration: none;
-    color: black;
-}
-
-.download_btn:hover {
-    background-color: goldenrod;
-    cursor: pointer;
-}
-
-.shopping {
-    margin-left: 827%;
-    margin-top: -3.6%;
-    cursor: pointer;
-}
-
-.line {
-    width: 100.35%;
-    margin-top: -10px;
-    height: 2px;
-    background-color: white;
-    position: relative;
 }
 
 .add {
@@ -150,7 +59,7 @@ body {
 #submit {
     height: 40px;
     width: 150px;
-    border: 1px solid black ;
+    border: 1px solid black;
     position: absolute;
     margin-left: 430px;
     margin-top: 420px;
@@ -159,7 +68,7 @@ body {
     cursor: pointer;
 }
 
-#submit:hover{
+#submit:hover {
     color: white;
-    background-color:black;
+    background-color: black;
 }

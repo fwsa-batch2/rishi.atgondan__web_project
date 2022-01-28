@@ -2,38 +2,225 @@ body {
     background-color: black;
 }
 
-h1{
- color: white;
- text-align: center;
- font-size: 80px;
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    margin-top: -1%;
 }
 
-.add {
+#add1 {
     height: 50px;
     width: 200px;
     background-color: #eca800;
     border: 1px solid black;
     font-size: 20px;
-    margin-top: 100px;
     cursor: pointer;
+
     margin-left: 500px;
 }
 
-.add:hover {
+#add1:hover {
     box-shadow: 0 0 10px white;
 }
 
-.add1 {
+#add2 {
     height: 50px;
     width: 200px;
     background-color: #eca800;
     border: 1px solid black;
     font-size: 20px;
-    margin-top: 10px;
     margin-left: 100px;
     cursor: pointer;
 }
 
-.add1:hover {
+#add2:hover {
     box-shadow: 0 0 10px white;
 }
+
+#add3 {
+    height: 50px;
+    width: 200px;
+    background-color: #eca800;
+    border: 1px solid black;
+    font-size: 20px;
+    margin-left: 100px;
+    cursor: pointer;
+}
+
+#add3:hover {
+    box-shadow: 0 0 10px white;
+}
+
+
+
+#add_notice {
+    height: 660px;
+    width: 500px;
+    background-color: #eca800;
+    margin-top: 4%;
+    margin-left: 630px;
+    position: absolute;
+    display: none;
+
+}
+
+#notice_img {
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 300px;
+    width: 480px;
+    border-radius: 10px;
+}
+
+#description_input {
+    height: 230px;
+    width: 450px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 10px;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+#submit1 {
+    height: 40px;
+    width: 150px;
+    border: 1px solid black;
+    position: absolute;
+    margin-left: 170px;
+    margin-top: 280px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#submit1:hover {
+    color: white;
+    background-color: black;
+}
+
+#add_achievements {
+    height: 650px;
+    width: 500px;
+    background-color: #eca800;
+    margin-top: 4%;
+    margin-left: 630px;
+    position: absolute;
+    display: none;
+
+}
+
+#image_title1 {
+    font-size: 30px;
+    margin-top: -45px;
+    margin-left: 170px;
+    position: absolute;
+}
+
+#image_input1 {
+    height: 40px;
+    width: 450px;
+    margin-top: 30px;
+    position: absolute;
+    margin-left: -160px;
+    border: 0px solid;
+    border-radius: 10px;
+    padding-left: 30px;
+    font-size: 20px;
+}
+
+#achievements_text {
+    height: 350px;
+    width: 450px;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 10px;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+#submit2 {
+    height: 40px;
+    width: 150px;
+    border: 1px solid black;
+    position: absolute;
+    margin-left: 170px;
+    margin-top: 450px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#submit2:hover {
+    color: white;
+    background-color: black;
+}
+
+
+#add_events{
+    height: 650px;
+    width: 500px;
+    background-color: #eca800;
+    margin-top: 4%;
+    margin-left: 630px;
+    display: none;
+ 
+}
+
+#image_title2{
+    font-size: 30px;
+    position: absolute;
+    margin-top: -45px;
+    margin-left: 170px;
+}
+
+#image_input2{
+    height: 40px;
+    width: 450px;
+    margin-top: 20px;
+    position: absolute;
+    margin-left: -160px;
+    border: 0px solid;
+    border-radius: 10px;
+    padding-left: 30px;
+    font-size: 20px;
+}
+
+#event_name{
+    height: 350px;
+    width: 450px;
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 10px;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+#submit3{
+    height: 40px;
+    width: 150px;
+    border: 1px solid black;
+    position: absolute;
+    margin-left: 170px;
+    margin-top: 440px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#submit3:hover {
+    color: white;
+    background-color: black;
+}
+
+

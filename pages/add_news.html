@@ -13,10 +13,37 @@
 <body>
     <h1>ADD NEWS</h1>
     <div class="add_bttns">
-        <button class="add">Add Notice</button>
-        <button class="add1">Add Achievements</button>
-        <button class="add1">Add Events</button>
+        <button onclick="addNotice('notice')" id="add1">Add Notice</button>
+        <button onclick="addAchievements('achievements')" id="add2">Add Achievements</button>
+        <button onclick="addEvents('events')" id="add3">Add Events</button>
     </div>
+    <div id="add_notice">
+        <form onsubmit="addingNotice(event)">
+            <img id="notice_img" src="./../assets/images/notice1.jpg" alt="notice"><br>
+            <textarea id="description_input" placeholder="Type Your Notice Here" required></textarea></span>
+            <button type="submit" id="submit1">Submit</button>
+        </form>
+    </div>
+    <div id="add_achievements">
+        <form onsubmit="addingAchievements(event)">
+            <h1>Achievements</h1>
+            <span id="image_title1">Image URL<br><input type="url" id="image_input1"
+                    placeholder="Paste the image URL link here" required></span><br>
+            <textarea id="achievements_text" placeholder="Type Your Achievements Here" required></textarea></span>
+            <button type="submit" id="submit2">Submit</button>
+        </form>
+    </div>
+    <div id="add_events">
+        <form onsubmit="addingEvents(event)">
+            <h1>Events</h1>
+            <span id="image_title2">Image URL<br><input type="url" id="image_input2"
+                    placeholder="Paste the image URL link here" required></span><br>
+            <textarea id="event_name" placeholder="Type Your Events Here" required></textarea></span>
+            <button type="submit" id="submit3">Submit</button>
+        </form>
+    </div>
+    <script src="./../assets/javascript/admin_news.js"></script>
+    <script src="./../assets/javascript/add_news.js"></script>
 </body>
 
 </html>

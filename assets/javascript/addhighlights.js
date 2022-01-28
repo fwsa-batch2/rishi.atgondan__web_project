@@ -1,9 +1,9 @@
-let emptyarray = [];
+let emptyArray = [];
 
 function onPageLoader() {
     let newDetails = JSON.parse(localStorage.getItem("HIGHLIGHTS"));
     if (newDetails != null) {
-        emptyarray = newDetails;
+        emptyArray = newDetails;
     }
 }
 onPageLoader();
@@ -16,8 +16,8 @@ function addingVideo(event) {
         "video": video,
         "text": text,
     };
-    emptyarray.push(toBeAdded);
-    localStorage.setItem("HIGHLIGHTS", JSON.stringify(emptyarray));
+    emptyArray.push(toBeAdded);
+    localStorage.setItem("HIGHLIGHTS", JSON.stringify(emptyArray));
     window.location.href = "./highlights.html"
 }
 
