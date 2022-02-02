@@ -418,7 +418,7 @@ body {
 
 }
 
-.added_events {
+#added_events {
     display: flex;
     flex-wrap: wrap;
     width: 100%;

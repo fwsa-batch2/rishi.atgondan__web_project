@@ -13,8 +13,8 @@ function highlights() {
     let newhighlights = "";
     for (let i of getFromLs) {
         let watchlist =
-            `<div class=\"box1\">
-                   <iframe class=\"video1\" src=\"${i.video}\" title=\"highlights\"></iframe> 
+            `<div class=\"box7\">
+                   <iframe class=\"video7\" src=\"${i.video}\" title=\"highlights\"></iframe> 
                    <p class=\"para1\"> ${i.text} </p>
               </div>`;
         newhighlights = newhighlights + watchlist;
