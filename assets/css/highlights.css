@@ -146,7 +146,6 @@ body {
     margin-top: 40%;
     margin-left: 4%;
     border-radius: 20px;
-    position: absolute;
 }
 
 .video2 {
@@ -312,7 +311,4 @@ body {
     color: black;
 }
 
-#added_highlights{
-  
-}
 

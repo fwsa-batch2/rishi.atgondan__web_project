@@ -2,29 +2,29 @@ let notice = [];
 let achievements = [];
 let events = [];
 
-function onPageLoader() {
+function onPageLoaderNews() {
     let newDetails = JSON.parse(localStorage.getItem("NOTICE"));
     if (newDetails != null) {
         notice = newDetails
     }
 }
-onPageLoader();
+onPageLoaderNews();
 
-function onPageLoader() {
+function onPageLoaderAchievements() {
     let newDetails = JSON.parse(localStorage.getItem("ACHIEVEMENTS"));
     if (newDetails != null) {
         achievements = newDetails
     }
 }
-onPageLoader();
+onPageLoaderAchievements();
 
-function onPageLoader() {
+function onPageLoaderNotice() {
     let newDetails = JSON.parse(localStorage.getItem("EVENTS"));
     if (newDetails != null) {
         events = newDetails
     }
 }
-onPageLoader();
+onPageLoaderNotice();
 
 function addingNotice() {
     let newsFromLocalStorage = JSON.parse(localStorage.getItem("NOTICE"));
