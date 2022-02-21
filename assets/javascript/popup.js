@@ -23,5 +23,5 @@ function submithandler(event) {
 
 
 function redirectToAdminPage() {
-    window.location.href = "./../../pages/admin_popup.html"
+    window.location.href = "/pubgtournamentapp-ui/pages/admin_popup.html"
 }

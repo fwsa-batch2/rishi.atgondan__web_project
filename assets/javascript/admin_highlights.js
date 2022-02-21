@@ -3,7 +3,7 @@ function checkingAdminKey(event) {
     const keyFromUser = document.getElementById("key").value;
     const key = "rishi@highlights"
     if (key == keyFromUser) {
-        window.location.href = "./../../pages/addhighlights.html"
+        window.location.href = "/pubgtournamentapp-ui/pages/addhighlights.html"
     } else {
         document.getElementById("error").innerText = "*invalid admin key";
     }

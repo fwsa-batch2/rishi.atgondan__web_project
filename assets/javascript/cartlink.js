@@ -1,4 +1,4 @@
 function cart() {
-    window.open("./../../pages/shopping.html", "_blank")
+    window.open("/pubgtournamentapp-ui//pages/shopping.html", "_blank")
 }
 

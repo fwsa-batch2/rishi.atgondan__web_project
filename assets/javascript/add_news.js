@@ -36,7 +36,7 @@ function addingNotice(event) {
     };
     notice.push(toBeAdded);
     localStorage.setItem("NOTICE", JSON.stringify(notice));
-    window.location.href = "./../../pages/news.html"
+    window.location.href = "/pubgtournamentapp-ui/pages/news.html"
 }
 
 function addingAchievements(event) {
@@ -51,7 +51,7 @@ function addingAchievements(event) {
     };
     achievements.push(toBeAdded);
     localStorage.setItem("ACHIEVEMENTS", JSON.stringify(achievements));
-    window.location.href = "./../../pages/news.html"
+    window.location.href = "/pubgtournamentapp-ui/pages/news.html"
 }
 
 function addingEvents(event) {
@@ -64,7 +64,7 @@ function addingEvents(event) {
     };
     events.push(toBeAdded);
     localStorage.setItem("EVENTS", JSON.stringify(events));
-    window.location.href = "./../../pages/news.html"
+    window.location.href = "/pubgtournamentapp-ui/pages/news.html"
 }
 
 function addNotice(x) {

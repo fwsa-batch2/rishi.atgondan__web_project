@@ -94,7 +94,7 @@ function submitHandler(event) {
         userlist.push(details);
         let detailsInString = JSON.stringify(userlist);
         localStorage.setItem("REGISTRATION FORM", detailsInString);
-        window.location.href = "./../../pages/popup.html"
+        window.location.href = "/pubgtournamentapp-ui/pages/popup.html"
 
     }
 
