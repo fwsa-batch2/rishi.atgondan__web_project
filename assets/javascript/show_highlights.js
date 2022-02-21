@@ -24,7 +24,7 @@ function highlights() {
 highlights();
 
 function redirectToAdminPage() {
-    window.location.href = "/pubgtournamentapp-ui/pages/admin_highlights.html"
+    window.location.href = "/rishi.atgondan__web_project/pages/admin_highlights.html"
 }
 
 

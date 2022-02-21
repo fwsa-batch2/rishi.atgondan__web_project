@@ -6,7 +6,7 @@ let str = "0";
 
 function teddy1(x) {
     document.getElementById('img1').style.visibility = "hidden";
-    let audio = new Audio('/pubgtournamentapp-ui/assets/images/gunsound.mp3');
+    let audio = new Audio('/rishi.atgondan__web_project/assets/images/gunsound.mp3');
     audio.play();
     let num = parseFloat(str) + 100;
     document.getElementById("points").innerHTML = num;
@@ -15,9 +15,9 @@ function teddy1(x) {
     } else if (num == 1600) {
         document.getElementById("winner1").style.display = "block";
         document.getElementById("winner2").style.display = "block";
-        let audio1 = new Audio('/pubgtournamentapp-ui/assets/images/claps.wav');
+        let audio1 = new Audio('/rishi.atgondan__web_project/assets/images/claps.wav');
         audio1.play();
-        let audio2 = new Audio('/pubgtournamentapp-ui/assets/images/rocket.wav');
+        let audio2 = new Audio('/rishi.atgondan__web_project/assets/images/rocket.wav');
         audio2.play();
         document.getElementById('prize').style.display = "block";
         document.getElementById('collect').style.display = "block";
@@ -25,7 +25,7 @@ function teddy1(x) {
 }
 function teddy2() {
     document.getElementById('img2').style.visibility = "hidden";
-    let audio = new Audio('/pubgtournamentapp-ui/assets/images/gunsound.mp3');
+    let audio = new Audio('/rishi.atgondan__web_project/assets/images/gunsound.mp3');
     audio.play();
     let num = parseFloat(str) + 100;
     document.getElementById("points").innerHTML = num;
@@ -34,9 +34,9 @@ function teddy2() {
     } else if (num == 1600) {
         document.getElementById("winner1").style.display = "block";
         document.getElementById("winner2").style.display = "block";
-        let audio1 = new Audio('/pubgtournamentapp-ui/assets/images/claps.wav');
+        let audio1 = new Audio('/rishi.atgondan__web_project/assets/images/claps.wav');
         audio1.play();
-        let audio2 = new Audio('/pubgtournamentapp-ui/assets/images/rocket.wav');
+        let audio2 = new Audio('/rishi.atgondan__web_project/assets/images/rocket.wav');
         audio2.play();
         document.getElementById('prize').style.display = "block";
         document.getElementById('collect').style.display = "block";
@@ -44,7 +44,7 @@ function teddy2() {
 }
 function teddy3() {
     document.getElementById('img3').style.visibility = "hidden";
-    let audio = new Audio('/pubgtournamentapp-ui/assets/images/gunsound.mp3');
+    let audio = new Audio('/rishi.atgondan__web_project/assets/images/gunsound.mp3');
     audio.play();
     let num = parseFloat(str) + 100;
     document.getElementById("points").innerHTML = num;
@@ -53,9 +53,9 @@ function teddy3() {
     } else if (num == 1600) {
         document.getElementById("winner1").style.display = "block";
         document.getElementById("winner2").style.display = "block";
-        let audio1 = new Audio('/pubgtournamentapp-ui/assets/images/claps.wav');
+        let audio1 = new Audio('/rishi.atgondan__web_project/assets/images/claps.wav');
         audio1.play();
-        let audio2 = new Audio('/pubgtournamentapp-ui/assets/images/rocket.wav');
+        let audio2 = new Audio('/rishi.atgondan__web_project/assets/images/rocket.wav');
         audio2.play();
         document.getElementById('prize').style.display = "block";
         document.getElementById('collect').style.display = "block";
@@ -63,7 +63,7 @@ function teddy3() {
 }
 function teddy4() {
     document.getElementById('img4').style.visibility = "hidden";
-    let audio = new Audio('/pubgtournamentapp-ui/assets/images/gunsound.mp3');
+    let audio = new Audio('/rishi.atgondan__web_project/assets/images/gunsound.mp3');
     audio.play();
     let num = parseFloat(str) + 100;
     document.getElementById("points").innerHTML = num;
@@ -72,9 +72,9 @@ function teddy4() {
     } else if (num == 1600) {
         document.getElementById("winner1").style.display = "block";
         document.getElementById("winner2").style.display = "block";
-        let audio1 = new Audio('/pubgtournamentapp-ui/assets/images/claps.wav');
+        let audio1 = new Audio('/rishi.atgondan__web_project/assets/images/claps.wav');
         audio1.play();
-        let audio2 = new Audio('/pubgtournamentapp-ui/assets/images/rocket.wav');
+        let audio2 = new Audio('/rishi.atgondan__web_project/assets/images/rocket.wav');
         audio2.play();
         document.getElementById('prize').style.display = "block";
         document.getElementById('collect').style.display = "block";
@@ -82,7 +82,7 @@ function teddy4() {
 }
 function teddy5() {
     document.getElementById('img5').style.visibility = "hidden";
-    let audio = new Audio('/pubgtournamentapp-ui/assets/images/gunsound.mp3');
+    let audio = new Audio('/rishi.atgondan__web_project/assets/images/gunsound.mp3');
     audio.play();
     let num = parseFloat(str) + 100;
     document.getElementById("points").innerHTML = num;
@@ -91,9 +91,9 @@ function teddy5() {
     } else if (num == 1600) {
         document.getElementById("winner1").style.display = "block";
         document.getElementById("winner2").style.display = "block";
-        let audio1 = new Audio('/pubgtournamentapp-ui/assets/images/claps.wav');
+        let audio1 = new Audio('/rishi.atgondan__web_project/assets/images/claps.wav');
         audio1.play();
-        let audio2 = new Audio('/pubgtournamentapp-ui/assets/images/rocket.wav');
+        let audio2 = new Audio('/rishi.atgondan__web_project/assets/images/rocket.wav');
         audio2.play();
         document.getElementById('prize').style.display = "block";
         document.getElementById('collect').style.display = "block";
@@ -101,7 +101,7 @@ function teddy5() {
 }
 function teddy6() {
     document.getElementById('img6').style.visibility = "hidden";
-    let audio = new Audio('/pubgtournamentapp-ui/assets/images/gunsound.mp3');
+    let audio = new Audio('/rishi.atgondan__web_project/assets/images/gunsound.mp3');
     audio.play();
     let num = parseFloat(str) + 100;
     document.getElementById("points").innerHTML = num;
@@ -110,9 +110,9 @@ function teddy6() {
     } else if (num == 1600) {
         document.getElementById("winner1").style.display = "block";
         document.getElementById("winner2").style.display = "block";
-        let audio1 = new Audio('/pubgtournamentapp-ui/assets/images/claps.wav');
+        let audio1 = new Audio('/rishi.atgondan__web_project/assets/images/claps.wav');
         audio1.play();
-        let audio2 = new Audio('/pubgtournamentapp-ui/assets/images/rocket.wav');
+        let audio2 = new Audio('/rishi.atgondan__web_project/assets/images/rocket.wav');
         audio2.play();
         document.getElementById('prize').style.display = "block";
         document.getElementById('collect').style.display = "block";
@@ -120,7 +120,7 @@ function teddy6() {
 }
 function teddy7() {
     document.getElementById('img7').style.visibility = "hidden";
-    let audio = new Audio('/pubgtournamentapp-ui/assets/images/gunsound.mp3');
+    let audio = new Audio('/rishi.atgondan__web_project/assets/images/gunsound.mp3');
     audio.play();
     let num = parseFloat(str) + 100;
     document.getElementById("points").innerHTML = num;
@@ -129,9 +129,9 @@ function teddy7() {
     } else if (num == 1600) {
         document.getElementById("winner1").style.display = "block";
         document.getElementById("winner2").style.display = "block";
-        let audio1 = new Audio('/pubgtournamentapp-ui/assets/images/claps.wav');
+        let audio1 = new Audio('/rishi.atgondan__web_project/assets/images/claps.wav');
         audio1.play();
-        let audio2 = new Audio('/pubgtournamentapp-ui/assets/images/rocket.wav');
+        let audio2 = new Audio('/rishi.atgondan__web_project/assets/images/rocket.wav');
         audio2.play();
         document.getElementById('prize').style.display = "block";
         document.getElementById('collect').style.display = "block";
@@ -139,7 +139,7 @@ function teddy7() {
 }
 function teddy8() {
     document.getElementById('img8').style.visibility = "hidden";
-    let audio = new Audio('/pubgtournamentapp-ui/assets/images/gunsound.mp3');
+    let audio = new Audio('/rishi.atgondan__web_project/assets/images/gunsound.mp3');
     audio.play();
     let num = parseFloat(str) + 100;
     document.getElementById("points").innerHTML = num;
@@ -148,9 +148,9 @@ function teddy8() {
     } else if (num == 1600) {
         document.getElementById("winner1").style.display = "block";
         document.getElementById("winner2").style.display = "block";
-        let audio1 = new Audio('/pubgtournamentapp-ui/assets/images/claps.wav');
+        let audio1 = new Audio('/rishi.atgondan__web_project/assets/images/claps.wav');
         audio1.play();
-        let audio2 = new Audio('/pubgtournamentapp-ui/assets/images/rocket.wav');
+        let audio2 = new Audio('/rishi.atgondan__web_project/assets/images/rocket.wav');
         audio2.play();
         document.getElementById('prize').style.display = "block";
         document.getElementById('collect').style.display = "block";
@@ -158,7 +158,7 @@ function teddy8() {
 }
 function teddy9() {
     document.getElementById('img9').style.visibility = "hidden";
-    let audio = new Audio('/pubgtournamentapp-ui/assets/images/gunsound.mp3');
+    let audio = new Audio('/rishi.atgondan__web_project/assets/images/gunsound.mp3');
     audio.play();
     let num = parseFloat(str) + 100;
     document.getElementById("points").innerHTML = num;
@@ -167,9 +167,9 @@ function teddy9() {
     } else if (num == 1600) {
         document.getElementById("winner1").style.display = "block";
         document.getElementById("winner2").style.display = "block";
-        let audio1 = new Audio('/pubgtournamentapp-ui/assets/images/claps.wav');
+        let audio1 = new Audio('/rishi.atgondan__web_project/assets/images/claps.wav');
         audio1.play();
-        let audio2 = new Audio('/pubgtournamentapp-ui/assets/images/rocket.wav');
+        let audio2 = new Audio('/rishi.atgondan__web_project/assets/images/rocket.wav');
         audio2.play();
         document.getElementById('prize').style.display = "block";
         document.getElementById('collect').style.display = "block";
@@ -177,7 +177,7 @@ function teddy9() {
 }
 function teddy10() {
     document.getElementById('img10').style.visibility = "hidden";
-    let audio = new Audio('/pubgtournamentapp-ui/assets/images/gunsound.mp3');
+    let audio = new Audio('/rishi.atgondan__web_project/assets/images/gunsound.mp3');
     audio.play();
     let num = parseFloat(str) + 100;
     document.getElementById("points").innerHTML = num;
@@ -186,9 +186,9 @@ function teddy10() {
     } else if (num == 1600) {
         document.getElementById("winner1").style.display = "block";
         document.getElementById("winner2").style.display = "block";
-        let audio1 = new Audio('/pubgtournamentapp-ui/assets/images/claps.wav');
+        let audio1 = new Audio('/rishi.atgondan__web_project/assets/images/claps.wav');
         audio1.play();
-        let audio2 = new Audio('/pubgtournamentapp-ui/assets/images/rocket.wav');
+        let audio2 = new Audio('/rishi.atgondan__web_project/assets/images/rocket.wav');
         audio2.play();
         document.getElementById('prize').style.display = "block";
         document.getElementById('collect').style.display = "block";
@@ -197,7 +197,7 @@ function teddy10() {
 }
 function teddy11() {
     document.getElementById('img11').style.visibility = "hidden";
-    let audio = new Audio('/pubgtournamentapp-ui/assets/images/gunsound.mp3');
+    let audio = new Audio('/rishi.atgondan__web_project/assets/images/gunsound.mp3');
     audio.play();
     let num = parseFloat(str) + 100;
     document.getElementById("points").innerHTML = num;
@@ -206,9 +206,9 @@ function teddy11() {
     } else if (num == 1600) {
         document.getElementById("winner1").style.display = "block";
         document.getElementById("winner2").style.display = "block";
-        let audio1 = new Audio('/pubgtournamentapp-ui/assets/images/claps.wav');
+        let audio1 = new Audio('/rishi.atgondan__web_project/assets/images/claps.wav');
         audio1.play();
-        let audio2 = new Audio('/pubgtournamentapp-ui/assets/images/rocket.wav');
+        let audio2 = new Audio('/rishi.atgondan__web_project/assets/images/rocket.wav');
         audio2.play();
         document.getElementById('prize').style.display = "block";
         document.getElementById('collect').style.display = "block";
@@ -216,7 +216,7 @@ function teddy11() {
 }
 function teddy12() {
     document.getElementById('img12').style.visibility = "hidden";
-    let audio = new Audio('/pubgtournamentapp-ui/assets/images/gunsound.mp3');
+    let audio = new Audio('/rishi.atgondan__web_project/assets/images/gunsound.mp3');
     audio.play();
     let num = parseFloat(str) + 100;
     document.getElementById("points").innerHTML = num;
@@ -225,9 +225,9 @@ function teddy12() {
     } else if (num == 1600) {
         document.getElementById("winner1").style.display = "block";
         document.getElementById("winner2").style.display = "block";
-        let audio1 = new Audio('/pubgtournamentapp-ui/assets/images/claps.wav');
+        let audio1 = new Audio('/rishi.atgondan__web_project/assets/images/claps.wav');
         audio1.play();
-        let audio2 = new Audio('/pubgtournamentapp-ui/assets/images/rocket.wav');
+        let audio2 = new Audio('/rishi.atgondan__web_project/assets/images/rocket.wav');
         audio2.play();
         document.getElementById('prize').style.display = "block";
         document.getElementById('collect').style.display = "block";
@@ -235,7 +235,7 @@ function teddy12() {
 }
 function teddy13() {
     document.getElementById('img13').style.visibility = "hidden";
-    let audio = new Audio('/pubgtournamentapp-ui/assets/images/gunsound.mp3');
+    let audio = new Audio('/rishi.atgondan__web_project/assets/images/gunsound.mp3');
     audio.play();
     let num = parseFloat(str) + 100;
     document.getElementById("points").innerHTML = num;
@@ -244,9 +244,9 @@ function teddy13() {
     } else if (num == 1600) {
         document.getElementById("winner1").style.display = "block";
         document.getElementById("winner2").style.display = "block";
-        let audio1 = new Audio('/pubgtournamentapp-ui/assets/images/claps.wav');
+        let audio1 = new Audio('/rishi.atgondan__web_project/assets/images/claps.wav');
         audio1.play();
-        let audio2 = new Audio('/pubgtournamentapp-ui/assets/images/rocket.wav');
+        let audio2 = new Audio('/rishi.atgondan__web_project/assets/images/rocket.wav');
         audio2.play();
         document.getElementById('prize').style.display = "block";
         document.getElementById('collect').style.display = "block";
@@ -255,7 +255,7 @@ function teddy13() {
 }
 function teddy14() {
     document.getElementById('img14').style.visibility = "hidden";
-    let audio = new Audio('/pubgtournamentapp-ui/assets/images/gunsound.mp3');
+    let audio = new Audio('/rishi.atgondan__web_project/assets/images/gunsound.mp3');
     audio.play();
     let num = parseFloat(str) + 100;
     document.getElementById("points").innerHTML = num;
@@ -264,9 +264,9 @@ function teddy14() {
     } else if (num == 1600) {
         document.getElementById("winner1").style.display = "block";
         document.getElementById("winner2").style.display = "block";
-        let audio1 = new Audio('/pubgtournamentapp-ui/assets/images/claps.wav');
+        let audio1 = new Audio('/rishi.atgondan__web_project/assets/images/claps.wav');
         audio1.play();
-        let audio2 = new Audio('/pubgtournamentapp-ui/assets/images/rocket.wav');
+        let audio2 = new Audio('/rishi.atgondan__web_project/assets/images/rocket.wav');
         audio2.play();
         document.getElementById('prize').style.display = "block";
         document.getElementById('collect').style.display = "block";
@@ -274,7 +274,7 @@ function teddy14() {
 }
 function teddy15() {
     document.getElementById('img15').style.visibility = "hidden";
-    let audio = new Audio('/pubgtournamentapp-ui/assets/images/gunsound.mp3');
+    let audio = new Audio('/rishi.atgondan__web_project/assets/images/gunsound.mp3');
     audio.play();
     let num = parseFloat(str) + 100;
     document.getElementById("points").innerHTML = num;
@@ -283,9 +283,9 @@ function teddy15() {
     } else if (num == 1600) {
         document.getElementById("winner1").style.display = "block";
         document.getElementById("winner2").style.display = "block";
-        let audio1 = new Audio('/pubgtournamentapp-ui/assets/images/claps.wav');
+        let audio1 = new Audio('/rishi.atgondan__web_project/assets/images/claps.wav');
         audio1.play();
-        let audio2 = new Audio('/pubgtournamentapp-ui/assets/images/rocket.wav');
+        let audio2 = new Audio('/rishi.atgondan__web_project/assets/images/rocket.wav');
         audio2.play();
         document.getElementById('prize').style.display = "block";
         document.getElementById('collect').style.display = "block";
@@ -293,7 +293,7 @@ function teddy15() {
 }
 function teddy16() {
     document.getElementById('img16').style.visibility = "hidden";
-    let audio = new Audio('/pubgtournamentapp-ui/assets/images/gunsound.mp3');
+    let audio = new Audio('/rishi.atgondan__web_project/assets/images/gunsound.mp3');
     audio.play();
     let num = parseFloat(str) + 100;
     document.getElementById("points").innerHTML = num;
@@ -302,9 +302,9 @@ function teddy16() {
     } else if (num == 1600) {
         document.getElementById("winner1").style.display = "block";
         document.getElementById("winner2").style.display = "block";
-        let audio1 = new Audio('/pubgtournamentapp-ui/assets/images/claps.wav');
+        let audio1 = new Audio('/rishi.atgondan__web_project/assets/images/claps.wav');
         audio1.play();
-        let audio2 = new Audio('/pubgtournamentapp-ui/assets/images/rocket.wav');
+        let audio2 = new Audio('/rishi.atgondan__web_project/assets/images/rocket.wav');
         audio2.play();
         document.getElementById('prize').style.display = "block";
         document.getElementById('collect').style.display = "block";
@@ -313,7 +313,7 @@ function teddy16() {
 
 function redirect(x) {
     if (x == "collect")
-        window.location.href = "/pubgtournamentapp-ui/pages/gift.html"
+        window.location.href = "/rishi.atgondan__web_project/pages/gift.html"
 }
 redirect(x);
 

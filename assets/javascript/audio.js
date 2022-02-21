@@ -1,3 +1,3 @@
-let audio = new Audio('/pubgtournamentapp-ui/assets/images/duck.mp3');
+let audio = new Audio('/rishi.atgondan__web_project/assets/images/duck.mp3');
 audio.play();
 

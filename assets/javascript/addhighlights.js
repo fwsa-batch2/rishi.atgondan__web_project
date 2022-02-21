@@ -18,6 +18,6 @@ function addingVideo(event) {
     };
     emptyArray.push(toBeAdded);
     localStorage.setItem("HIGHLIGHTS", JSON.stringify(emptyArray));
-    window.location.href = "/pubgtournamentapp-ui/pages/highlights.html"
+    window.location.href = "/rishi.atgondan__web_project/pages/highlights.html"
 }
 

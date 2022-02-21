@@ -40,6 +40,6 @@ function get4(x) {
 }
 
 function redirectToAdminPage() {
-    window.location.href = "/pubgtournamentapp-ui/pages/admin_news.html"
+    window.location.href = "/rishi.atgondan__web_project/pages/admin_news.html"
 }
 
