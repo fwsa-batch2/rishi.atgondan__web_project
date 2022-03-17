@@ -1,0 +1,200 @@
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin-left: 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url(./../images/pubg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+#navbar {
+    background-color: black;
+    height: 70px;
+    width: 100.45%;
+    margin-top: -12px;
+}
+
+.logo {
+    height: 70px;
+    width: 160px;
+}
+
+.first-nav {
+    margin-left: 150px;
+    margin-top: -42px;
+}
+
+.first-nav li {
+    display: inline-block;
+}
+
+.first-nav li a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 24px;
+    transition: 0.3s;
+}
+
+.first-nav li a:hover {
+    border-radius: 20px;
+    color: black;
+    background-color: #eca800;
+}
+
+.first-nav li.design a {
+    border-radius: 20px;
+    background-color: #eca800;
+    color: black;
+}
+
+.second-nav li {
+    display: inline-block;
+}
+
+.second-nav {
+    margin-left: 63%;
+    margin-top: -3.3%;
+}
+
+.download-buttons {
+    margin-left: 75%;
+    margin-top: -60px;
+    height: 98%;
+}
+
+.download_btn {
+    height: 90%;
+    width: 185px;
+    background-color: #eca800;
+    border: none;
+    font-size: medium;
+}
+
+.download_btn a {
+    text-decoration: none;
+    color: black;
+}
+
+.download_btn:hover {
+    background-color: goldenrod;
+    cursor: pointer;
+}
+
+.shopping {
+    margin-left: 1140%;
+    margin-top: -3.6%;
+    cursor: pointer;
+}
+
+.main_div {
+    margin-top: -40px;
+}
+
+h2 {
+    color: #eca800;
+}
+
+p {
+    color: white;
+}
+
+.row_1 {
+    max-width: 1400px;
+    padding: 25px 30px;
+    margin-left: 10%;
+}
+
+.coloum_2_1 {
+    max-width: 600px;
+    padding-top: 40px;
+}
+
+span {
+    color: #eca800;
+}
+
+
+.contact input {
+    width: 90px;
+    height: 35px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 70%;
+    border-radius: 4px;
+    background: transparent;
+    border: 2px solid #229954;
+    color: #229954;
+    cursor: pointer;
+}
+
+.contact input:hover {
+    background-color: #229954;
+    color: white;
+    transition: 0.3s;
+}
+
+.button {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 10%;
+}
+
+.button input {
+    color: rgb(1, 14, 14);
+    font-size: x-large;
+    border-radius: 10px;
+    padding-top: -50px;
+    height: 50px;
+    width: 150px;
+    margin-top: 25px;
+    cursor: pointer;
+    margin-left: 4%;
+
+}
+
+.button input:hover {
+    background-color:#eca800 ;
+    border: 0px;
+}
+
+.coloum_2_1 p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.coloum_2_1 .text {
+    margin-bottom: 20px;
+}
+
+.coloum_2_1 .text input {
+    width: 550px;
+    height: 50px;
+    outline: none;
+    border: 1px solid #D0D3D4;
+    font-size: 20px;
+    padding-left: 10px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.coloum_2_1 .message textarea {
+    width: 550px;
+    height: 120px;
+    outline: none;
+    border: 1px solid #D0D3D4;
+    padding-top: 3px;
+    margin-top: 20px;
+    border-radius: 8px;
+    font-size: 20px;
+    padding-left: 10px;
+    resize: none;
+}
+
+::placeholder {
+    font-size: 20px;
+}
