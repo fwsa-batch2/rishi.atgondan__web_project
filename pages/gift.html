@@ -15,16 +15,19 @@
 </head>
 
 <body>
-    <img class="teddy" src="./../assets/images/teddyFInalgift.png" alt="teddy">
-    <div class="wish">
-        <strong>
-            <p id="h1">Congratulations</p>
-        </strong>
-    </div>
-    <p>
-        YOU WON THE GAME,CONGRATS.<br>KEEP PLAYING.
-    </p>
-    <a class="home" href="./../index.html"><em class="fa fa-home"></em></a>
+    <form>
+        <div class="review">
+            <p class="p1">Congratulations</p>
+            <span id="gift">Your gifts will be sent to your User ID </span> <br>
+            <span id="span">User ID</span><input id="user_id" class='input' type="tel" minlength="8" maxlength="8" required><br>
+            <span id="span">Email ID</span><input id="email_id" class="input" type="email" required><br>
+            <span id="span">Any Feedbacks</span> <textarea placeholder="Type here..." cols="25" id="feedback"></textarea> <br>
+            <div class="button">
+                <input type="submit" value="submit" onclick="submitHandler(event)">
+            </div>
+        </div>
+    </form>
+<script src="../assets/javascript/gift.js"></script>
 </body>
 
 </html>
