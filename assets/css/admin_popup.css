@@ -5,6 +5,7 @@ body {
     background-attachment: fixed;
     background-position: center;
     color: white;
+    font-family: sans-serif;
 }
 
 h1, h2 {

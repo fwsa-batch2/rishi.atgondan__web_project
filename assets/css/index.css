@@ -4,7 +4,7 @@
 
 body {
     margin-left: 0px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: sans-serif;
 
 }
 
@@ -82,7 +82,7 @@ body {
 }
 
 .shopping {
-    margin-left: 827%;
+    margin-left: 858%;
     margin-top: -3.6%;
     cursor: pointer;
 }
